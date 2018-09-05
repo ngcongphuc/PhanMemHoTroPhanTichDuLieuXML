@@ -1,0 +1,7 @@
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\MyFunctionDLL\bin\Release\MyFunctionDLL.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\MyFunctionDLL\bin\Release\MyFunctionDLL.pdb
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\MyFunctionDLL\obj\Release\MyFunctionDLL.csprojResolveAssemblyReference.cache
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\MyFunctionDLL\obj\Release\MyFunctionDLL.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\MyFunctionDLL\obj\Release\MyFunctionDLL.pdb
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\MyFunctionDLL\obj\Release\Interop.ADODB.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\MyFunctionDLL\obj\Release\MyFunctionDLL.csproj.ResolveComReference.cache

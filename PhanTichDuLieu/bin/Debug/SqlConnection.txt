@@ -1,0 +1,4 @@
+datasource = .
+database = asdfasdfasdf
+username = sa
+password = sa

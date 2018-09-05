@@ -1,0 +1,5 @@
+datasource = IT\SQLEXPRESS
+database = DB2018
+username = sa
+password = sa
+key = licencekey

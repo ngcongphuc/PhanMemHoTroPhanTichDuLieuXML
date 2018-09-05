@@ -1,0 +1,340 @@
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\Phan Mem Ho Tro PhanTich Du Lieu XML.exe.config
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\Phan Mem Ho Tro PhanTich Du Lieu XML.exe.manifest
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\Phan Mem Ho Tro PhanTich Du Lieu XML.application
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\Phan Mem Ho Tro PhanTich Du Lieu XML.exe
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\Phan Mem Ho Tro PhanTich Du Lieu XML.pdb
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.BonusSkins.v16.1.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.Data.v16.1.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.Office.v16.1.Core.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.Pdf.v16.1.Core.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.Pdf.v16.1.Drawing.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.Printing.v16.1.Core.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.RichEdit.v16.1.Core.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.Sparkline.v16.1.Core.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.Utils.v16.1.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.XtraBars.v16.1.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.XtraEditors.v16.1.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.XtraGrid.v16.1.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.XtraLayout.v16.1.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.XtraPrinting.v16.1.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.XtraRichEdit.v16.1.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.XtraScheduler.v16.1.Core.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.XtraScheduler.v16.1.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.XtraTreeList.v16.1.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\EntityFramework.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\EntityFramework.SqlServer.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ExcelDataReader.DataSet.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ExcelDataReader.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\MyFunctionDLL.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\System.Data.SQLite.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\System.Data.SQLite.EF6.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\System.Data.SQLite.Linq.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.Data.v16.1.xml
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.Office.v16.1.Core.xml
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.Pdf.v16.1.Core.xml
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.Pdf.v16.1.Drawing.xml
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.Printing.v16.1.Core.xml
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.RichEdit.v16.1.Core.xml
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.Utils.v16.1.xml
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.XtraBars.v16.1.xml
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.Sparkline.v16.1.Core.xml
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.XtraEditors.v16.1.xml
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.XtraGrid.v16.1.xml
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.XtraLayout.v16.1.xml
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.XtraPrinting.v16.1.xml
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.XtraRichEdit.v16.1.xml
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.XtraScheduler.v16.1.xml
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.XtraScheduler.v16.1.Core.xml
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.XtraTreeList.v16.1.xml
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\EntityFramework.xml
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\EntityFramework.SqlServer.xml
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ExcelDataReader.xml
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ExcelDataReader.DataSet.xml
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\MyFunctionDLL.pdb
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\System.Data.SQLite.xml
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\de\DevExpress.Data.v16.1.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\es\DevExpress.Data.v16.1.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ja\DevExpress.Data.v16.1.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ru\DevExpress.Data.v16.1.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\de\DevExpress.Office.v16.1.Core.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\es\DevExpress.Office.v16.1.Core.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ja\DevExpress.Office.v16.1.Core.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ru\DevExpress.Office.v16.1.Core.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\de\DevExpress.Pdf.v16.1.Core.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\es\DevExpress.Pdf.v16.1.Core.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ja\DevExpress.Pdf.v16.1.Core.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ru\DevExpress.Pdf.v16.1.Core.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\de\DevExpress.Printing.v16.1.Core.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\es\DevExpress.Printing.v16.1.Core.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ja\DevExpress.Printing.v16.1.Core.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ru\DevExpress.Printing.v16.1.Core.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\de\DevExpress.RichEdit.v16.1.Core.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\es\DevExpress.RichEdit.v16.1.Core.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ja\DevExpress.RichEdit.v16.1.Core.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ru\DevExpress.RichEdit.v16.1.Core.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\de\DevExpress.Utils.v16.1.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\es\DevExpress.Utils.v16.1.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ja\DevExpress.Utils.v16.1.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ru\DevExpress.Utils.v16.1.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\de\DevExpress.XtraBars.v16.1.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\es\DevExpress.XtraBars.v16.1.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ja\DevExpress.XtraBars.v16.1.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ru\DevExpress.XtraBars.v16.1.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\de\DevExpress.Sparkline.v16.1.Core.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\es\DevExpress.Sparkline.v16.1.Core.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ja\DevExpress.Sparkline.v16.1.Core.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ru\DevExpress.Sparkline.v16.1.Core.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\de\DevExpress.XtraEditors.v16.1.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\es\DevExpress.XtraEditors.v16.1.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ja\DevExpress.XtraEditors.v16.1.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ru\DevExpress.XtraEditors.v16.1.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\de\DevExpress.XtraGrid.v16.1.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\es\DevExpress.XtraGrid.v16.1.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ja\DevExpress.XtraGrid.v16.1.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ru\DevExpress.XtraGrid.v16.1.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\de\DevExpress.XtraLayout.v16.1.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\es\DevExpress.XtraLayout.v16.1.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ja\DevExpress.XtraLayout.v16.1.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ru\DevExpress.XtraLayout.v16.1.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\de\DevExpress.XtraPrinting.v16.1.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\es\DevExpress.XtraPrinting.v16.1.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ja\DevExpress.XtraPrinting.v16.1.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ru\DevExpress.XtraPrinting.v16.1.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\de\DevExpress.XtraRichEdit.v16.1.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\es\DevExpress.XtraRichEdit.v16.1.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ja\DevExpress.XtraRichEdit.v16.1.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ru\DevExpress.XtraRichEdit.v16.1.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\de\DevExpress.XtraScheduler.v16.1.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\es\DevExpress.XtraScheduler.v16.1.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ja\DevExpress.XtraScheduler.v16.1.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ru\DevExpress.XtraScheduler.v16.1.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\de\DevExpress.XtraScheduler.v16.1.Core.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\es\DevExpress.XtraScheduler.v16.1.Core.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ja\DevExpress.XtraScheduler.v16.1.Core.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ru\DevExpress.XtraScheduler.v16.1.Core.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\de\DevExpress.XtraTreeList.v16.1.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\es\DevExpress.XtraTreeList.v16.1.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ja\DevExpress.XtraTreeList.v16.1.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ru\DevExpress.XtraTreeList.v16.1.resources.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\Interop.Microsoft.Office.Core.dll
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.csproj.ResolveComReference.cache
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmChiaDuLieuSQLite.resources
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmNoiDuLieuSQLite_KQT.resources
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmDMCoSoKCB.resources
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmDMMau19a.resources
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmDMMau20a.resources
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmDMMau21a.resources
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmDMMau7980a.resources
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmDMNgay.resources
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmDMPhauThuatThuThuat.resources
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmDMThuocVuotTuyen.resources
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmDMMau14a.resources
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmDMDieuKienDichVuNangCao.resources
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmDMDieuKienDichVu.resources
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmDMDieuKienThuocNangCao.resources
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmDMDieuKienThuoc.resources
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmDanhMucCoSoKCB.resources
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmDMxml123.resources
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmImportDuLieu.resources
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmGiamDinhThongKeThuocVuotTuyen.resources
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmGiamDinhThongKePhauThuatThuThuat.resources
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmGiamDinhThongKeNgay.resources
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmGiamDinhThongKeMau7980a.resources
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmGiamDinhThongKeMau21a.resources
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmGiamDinhThongKeMau20a.resources
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmGiamDinhThongKeMau19a.resources
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmGioiThieu.resources
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmMain.resources
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmHuongDanSuDung.resources
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmTaiLieuThamKhao.resources
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmThietLapHeThong.resources
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmGiamDinhThongKeMau14a.resources
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmDVKTCoDieuKienNangCao.resources
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmDVKTCoDieuKien.resources
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmThuocCoDieuKienNangCao.resources
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmThuocCoDieuKien.resources
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmNoiDuLieuSQLite.resources
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmWaitForm.resources
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.Properties.Resources.resources
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.csproj.GenerateResource.Cache
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\Phan Mem Ho Tro PhanTich Du Lieu XML.exe.licenses
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\Phan Mem Ho Tro PhanTich Du Lieu XML.TrustInfo.xml
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\Phan Mem Ho Tro PhanTich Du Lieu XML.exe.manifest
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\Phan Mem Ho Tro PhanTich Du Lieu XML.application
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\Phan Mem Ho Tro PhanTich Du Lieu XML.exe
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\Phan Mem Ho Tro PhanTich Du Lieu XML.pdb
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.csprojResolveAssemblyReference.cache
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmInputBox.resources
+D:\ProjectMini\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmInitDatabase.resources
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\Phan Mem Ho Tro PhanTich Du Lieu XML.exe.config
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\Phan Mem Ho Tro PhanTich Du Lieu XML.exe.manifest
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\Phan Mem Ho Tro PhanTich Du Lieu XML.application
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\Phan Mem Ho Tro PhanTich Du Lieu XML.exe
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\Phan Mem Ho Tro PhanTich Du Lieu XML.pdb
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.BonusSkins.v17.1.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.Data.v17.1.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.Office.v17.1.Core.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.Pdf.v17.1.Core.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.Pdf.v17.1.Drawing.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.Printing.v17.1.Core.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.RichEdit.v17.1.Core.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.RichEdit.v17.1.Export.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.Sparkline.v17.1.Core.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.Utils.v17.1.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.XtraBars.v17.1.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.XtraEditors.v17.1.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.XtraGrid.v17.1.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.XtraLayout.v17.1.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.XtraPrinting.v17.1.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.XtraRichEdit.v17.1.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.XtraScheduler.v17.1.Core.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.XtraScheduler.v17.1.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.XtraTreeList.v17.1.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\EntityFramework.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\EntityFramework.SqlServer.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ExcelDataReader.DataSet.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ExcelDataReader.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\MyFunctionDLL.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\System.Data.SQLite.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\System.Data.SQLite.EF6.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\System.Data.SQLite.Linq.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.Data.v17.1.xml
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.Office.v17.1.Core.xml
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.Pdf.v17.1.Core.xml
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.Pdf.v17.1.Drawing.xml
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.Printing.v17.1.Core.xml
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.RichEdit.v17.1.Core.xml
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.Utils.v17.1.xml
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.XtraBars.v17.1.xml
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.Sparkline.v17.1.Core.xml
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.XtraEditors.v17.1.xml
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.XtraGrid.v17.1.xml
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.XtraLayout.v17.1.xml
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.XtraPrinting.v17.1.xml
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.XtraRichEdit.v17.1.xml
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.XtraScheduler.v17.1.xml
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.XtraScheduler.v17.1.Core.xml
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\DevExpress.XtraTreeList.v17.1.xml
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\EntityFramework.xml
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\EntityFramework.SqlServer.xml
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ExcelDataReader.xml
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ExcelDataReader.DataSet.xml
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\MyFunctionDLL.pdb
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\System.Data.SQLite.xml
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\System.Data.SQLite.dll.config
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\de\DevExpress.Data.v17.1.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\es\DevExpress.Data.v17.1.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ja\DevExpress.Data.v17.1.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ru\DevExpress.Data.v17.1.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\de\DevExpress.Office.v17.1.Core.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\es\DevExpress.Office.v17.1.Core.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ja\DevExpress.Office.v17.1.Core.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ru\DevExpress.Office.v17.1.Core.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\de\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\es\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ja\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ru\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\de\DevExpress.Printing.v17.1.Core.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\es\DevExpress.Printing.v17.1.Core.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ja\DevExpress.Printing.v17.1.Core.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ru\DevExpress.Printing.v17.1.Core.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\de\DevExpress.RichEdit.v17.1.Core.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\es\DevExpress.RichEdit.v17.1.Core.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ja\DevExpress.RichEdit.v17.1.Core.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ru\DevExpress.RichEdit.v17.1.Core.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\de\DevExpress.Utils.v17.1.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\es\DevExpress.Utils.v17.1.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ja\DevExpress.Utils.v17.1.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ru\DevExpress.Utils.v17.1.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\de\DevExpress.XtraBars.v17.1.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\es\DevExpress.XtraBars.v17.1.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ja\DevExpress.XtraBars.v17.1.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ru\DevExpress.XtraBars.v17.1.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\de\DevExpress.Sparkline.v17.1.Core.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\es\DevExpress.Sparkline.v17.1.Core.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ja\DevExpress.Sparkline.v17.1.Core.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ru\DevExpress.Sparkline.v17.1.Core.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\de\DevExpress.XtraEditors.v17.1.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\es\DevExpress.XtraEditors.v17.1.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ja\DevExpress.XtraEditors.v17.1.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ru\DevExpress.XtraEditors.v17.1.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\de\DevExpress.XtraGrid.v17.1.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\es\DevExpress.XtraGrid.v17.1.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ja\DevExpress.XtraGrid.v17.1.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ru\DevExpress.XtraGrid.v17.1.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\de\DevExpress.XtraLayout.v17.1.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\es\DevExpress.XtraLayout.v17.1.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ja\DevExpress.XtraLayout.v17.1.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ru\DevExpress.XtraLayout.v17.1.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\de\DevExpress.XtraPrinting.v17.1.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\es\DevExpress.XtraPrinting.v17.1.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ja\DevExpress.XtraPrinting.v17.1.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ru\DevExpress.XtraPrinting.v17.1.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\de\DevExpress.XtraRichEdit.v17.1.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\es\DevExpress.XtraRichEdit.v17.1.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ja\DevExpress.XtraRichEdit.v17.1.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ru\DevExpress.XtraRichEdit.v17.1.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\de\DevExpress.XtraScheduler.v17.1.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\es\DevExpress.XtraScheduler.v17.1.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ja\DevExpress.XtraScheduler.v17.1.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ru\DevExpress.XtraScheduler.v17.1.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\de\DevExpress.XtraScheduler.v17.1.Core.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\es\DevExpress.XtraScheduler.v17.1.Core.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ja\DevExpress.XtraScheduler.v17.1.Core.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ru\DevExpress.XtraScheduler.v17.1.Core.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\de\DevExpress.XtraTreeList.v17.1.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\es\DevExpress.XtraTreeList.v17.1.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ja\DevExpress.XtraTreeList.v17.1.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\bin\Release\ru\DevExpress.XtraTreeList.v17.1.resources.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.csprojResolveAssemblyReference.cache
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\Interop.Microsoft.Office.Core.dll
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.csproj.ResolveComReference.cache
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmChiaDuLieuSQLite.resources
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmNoiDuLieuSQLite_KQT.resources
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmDMCoSoKCB.resources
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmDMMau19a.resources
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmDMMau20a.resources
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmDMMau21a.resources
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmDMMau7980a.resources
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmDMNgay.resources
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmDMPhauThuatThuThuat.resources
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmDMThuocVuotTuyen.resources
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmDMMau14a.resources
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmDMDieuKienDichVuNangCao.resources
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmDMDieuKienDichVu.resources
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmDMDieuKienThuocNangCao.resources
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmDMDieuKienThuoc.resources
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmDanhMucCoSoKCB.resources
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmDMxml123.resources
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmImportDuLieu.resources
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmGiamDinhThongKeThuocVuotTuyen.resources
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmGiamDinhThongKePhauThuatThuThuat.resources
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmGiamDinhThongKeNgay.resources
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmGiamDinhThongKeMau7980a.resources
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmGiamDinhThongKeMau21a.resources
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmGiamDinhThongKeMau20a.resources
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmGiamDinhThongKeMau19a.resources
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmGioiThieu.resources
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmMain.resources
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmHuongDanSuDung.resources
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmInitDatabase.resources
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmTaiLieuThamKhao.resources
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmThietLapHeThong.resources
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmGiamDinhThongKeMau14a.resources
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmDVKTCoDieuKienNangCao.resources
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmDVKTCoDieuKien.resources
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmThuocCoDieuKienNangCao.resources
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmThuocCoDieuKien.resources
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmNoiDuLieuSQLite.resources
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmWaitForm.resources
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmInputBox.resources
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.Properties.Resources.resources
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\PhanTichDuLieu.csproj.GenerateResource.Cache
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\Phan Mem Ho Tro PhanTich Du Lieu XML.exe.licenses
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\Phan Mem Ho Tro PhanTich Du Lieu XML.TrustInfo.xml
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\Phan Mem Ho Tro PhanTich Du Lieu XML.exe.manifest
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\Phan Mem Ho Tro PhanTich Du Lieu XML.application
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\Phan Mem Ho Tro PhanTich Du Lieu XML.exe
+D:\Project C#\PhanMemBHXH_SQLServer\PhanTichDuLieu\PhanTichDuLieu\obj\Release\Phan Mem Ho Tro PhanTich Du Lieu XML.pdb
