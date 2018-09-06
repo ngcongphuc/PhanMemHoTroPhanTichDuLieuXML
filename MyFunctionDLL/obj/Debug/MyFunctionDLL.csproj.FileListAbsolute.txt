@@ -1,0 +1,7 @@
+D:\Project C#\PhanMemHoTroPhanTichDuLieuXML\MyFunctionDLL\bin\Debug\MyFunctionDLL.dll
+D:\Project C#\PhanMemHoTroPhanTichDuLieuXML\MyFunctionDLL\bin\Debug\MyFunctionDLL.pdb
+D:\Project C#\PhanMemHoTroPhanTichDuLieuXML\MyFunctionDLL\obj\Debug\MyFunctionDLL.csprojResolveAssemblyReference.cache
+D:\Project C#\PhanMemHoTroPhanTichDuLieuXML\MyFunctionDLL\obj\Debug\Interop.ADODB.dll
+D:\Project C#\PhanMemHoTroPhanTichDuLieuXML\MyFunctionDLL\obj\Debug\MyFunctionDLL.csproj.ResolveComReference.cache
+D:\Project C#\PhanMemHoTroPhanTichDuLieuXML\MyFunctionDLL\obj\Debug\MyFunctionDLL.dll
+D:\Project C#\PhanMemHoTroPhanTichDuLieuXML\MyFunctionDLL\obj\Debug\MyFunctionDLL.pdb

@@ -91,6 +91,31 @@ namespace PhanTichDuLieu
             f.Show();
         }
 
+        private void btnGiamDinhXetNghiem_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frmGiamDinhXetNghiem f = new frmGiamDinhXetNghiem();
+            f.Text = "Truy Vấn Xét Nghiệm Theo Điều Kiện";
+            f.MdiParent = this;
+            f.Show();
+        }
+
+        private void btnGiamDinhChanDoanHinhAnh_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frmGiamDinhChanDoanHinhAnh f = new frmGiamDinhChanDoanHinhAnh();
+            f.Text = "Truy Vấn Chẩn Đoán Hình Ảnh Theo Điều Kiện";
+            f.MdiParent = this;
+            f.Show();
+        }
+
+        private void btnGiamDinhNgayGiuong_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frmGiamDinhNgayGiuong f = new frmGiamDinhNgayGiuong();
+            f.Text = "Truy Vấn Ngày Giường Theo Điều Kiện";
+            f.MdiParent = this;
+            f.Show();
+        }
+
+
         private void btnDMDieuKienThuoc_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             frmDMDieuKienThuoc f = new frmDMDieuKienThuoc();
@@ -161,11 +186,6 @@ namespace PhanTichDuLieu
             f.Show();
         }
 
-        private void btnVatTuYTe_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
-        {
-            MessageBox.Show("Chức năng chưa hoàn thiện! Mời sử dụng chức năng khác!");
-        }
-
         private void btnChiaDuLieu_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             frmChiaDuLieuSQLite f = new frmChiaDuLieuSQLite();
@@ -210,6 +230,31 @@ namespace PhanTichDuLieu
         {
             frmDMDieuKienDichVuNangCao f = new frmDMDieuKienDichVuNangCao();
             f.Text = "Danh mục dịch vụ kỹ thuật nâng cao";
+            f.MdiParent = this;
+            f.Show();
+        }
+
+
+        private void btnDMDieuKienXetNghiem_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frmDMDieuKienXetNghiemNangCao f = new frmDMDieuKienXetNghiemNangCao();
+            f.Text = "Danh Mục Điều Kiện Xét Nghiệm";
+            f.MdiParent = this;
+            f.Show();
+        }
+
+        private void btnDMDieuKienChanDoanHinhAnh_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frmDMDieuKienChanDoanHinhAnhNangCao f = new frmDMDieuKienChanDoanHinhAnhNangCao();
+            f.Text = "Danh Mục Điều Kiện Chẩn Đoán Hình Ảnh";
+            f.MdiParent = this;
+            f.Show();
+        }
+
+        private void btnDMDieuKienNgayGiuong_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frmDMDieuKienNgayGiuongNangCao f = new frmDMDieuKienNgayGiuongNangCao();
+            f.Text = "Danh Mục Điều Kiện Ngày Giường";
             f.MdiParent = this;
             f.Show();
         }
@@ -333,5 +378,7 @@ namespace PhanTichDuLieu
             f.MdiParent = this;
             f.Show();
         }
+
+        
     }
 }

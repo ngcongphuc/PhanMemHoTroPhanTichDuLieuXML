@@ -1,4 +1,4 @@
 datasource = .
-database = asdfasdfasdf
+database = DB2018
 username = sa
 password = sa

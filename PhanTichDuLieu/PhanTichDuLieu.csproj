@@ -162,6 +162,24 @@
     <Compile Include="DanhMuc\frmDMCoSoKCB.Designer.cs">
       <DependentUpon>frmDMCoSoKCB.cs</DependentUpon>
     </Compile>
+    <Compile Include="DanhMuc\frmDMDieuKienChanDoanHinhAnhNangCao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DanhMuc\frmDMDieuKienChanDoanHinhAnhNangCao.Designer.cs">
+      <DependentUpon>frmDMDieuKienChanDoanHinhAnhNangCao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DanhMuc\frmDMDieuKienNgayGiuongNangCao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DanhMuc\frmDMDieuKienNgayGiuongNangCao.Designer.cs">
+      <DependentUpon>frmDMDieuKienNgayGiuongNangCao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DanhMuc\frmDMDieuKienXetNghiemNangCao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DanhMuc\frmDMDieuKienXetNghiemNangCao.Designer.cs">
+      <DependentUpon>frmDMDieuKienXetNghiemNangCao.cs</DependentUpon>
+    </Compile>
     <Compile Include="DanhMuc\frmDMMau19a.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -245,6 +263,24 @@
     </Compile>
     <Compile Include="DanhMuc\frmImportDuLieu.Designer.cs">
       <DependentUpon>frmImportDuLieu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GiamDinh\frmGiamDinhChanDoanHinhAnh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GiamDinh\frmGiamDinhChanDoanHinhAnh.Designer.cs">
+      <DependentUpon>frmGiamDinhChanDoanHinhAnh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GiamDinh\frmGiamDinhNgayGiuong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GiamDinh\frmGiamDinhNgayGiuong.Designer.cs">
+      <DependentUpon>frmGiamDinhNgayGiuong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GiamDinh\frmGiamDinhXetNghiem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GiamDinh\frmGiamDinhXetNghiem.Designer.cs">
+      <DependentUpon>frmGiamDinhXetNghiem.cs</DependentUpon>
     </Compile>
     <Compile Include="GiamDinh\frmGiamDinhThongKeThuocVuotTuyen.cs">
       <SubType>Form</SubType>
@@ -397,6 +433,15 @@
     <EmbeddedResource Include="DanhMuc\frmDMCoSoKCB.resx">
       <DependentUpon>frmDMCoSoKCB.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DanhMuc\frmDMDieuKienChanDoanHinhAnhNangCao.resx">
+      <DependentUpon>frmDMDieuKienChanDoanHinhAnhNangCao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DanhMuc\frmDMDieuKienNgayGiuongNangCao.resx">
+      <DependentUpon>frmDMDieuKienNgayGiuongNangCao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DanhMuc\frmDMDieuKienXetNghiemNangCao.resx">
+      <DependentUpon>frmDMDieuKienXetNghiemNangCao.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DanhMuc\frmDMMau19a.resx">
       <DependentUpon>frmDMMau19a.cs</DependentUpon>
     </EmbeddedResource>
@@ -441,6 +486,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DanhMuc\frmImportDuLieu.resx">
       <DependentUpon>frmImportDuLieu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GiamDinh\frmGiamDinhChanDoanHinhAnh.resx">
+      <DependentUpon>frmGiamDinhChanDoanHinhAnh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GiamDinh\frmGiamDinhNgayGiuong.resx">
+      <DependentUpon>frmGiamDinhNgayGiuong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GiamDinh\frmGiamDinhXetNghiem.resx">
+      <DependentUpon>frmGiamDinhXetNghiem.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GiamDinh\frmGiamDinhThongKeThuocVuotTuyen.resx">
       <DependentUpon>frmGiamDinhThongKeThuocVuotTuyen.cs</DependentUpon>
@@ -635,6 +689,7 @@
     <None Include="Resources\exporttodoc_32x32.png" />
     <None Include="Resources\exporttoxls_32x32.png" />
     <None Include="Resources\exporttoxlsx_32x32.png" />
+    <None Include="Resources\close_32x32.png" />
     <Content Include="SqlConnection.txt" />
     <None Include="Resources\BG_BHXH_2.png" />
   </ItemGroup>
