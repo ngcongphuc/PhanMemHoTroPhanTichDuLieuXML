@@ -192,7 +192,7 @@ namespace PhanTichDuLieu
         {
             string maDieuKien = this.tbMaDieuKien.Text;
             string tenDieuKien = this.tbTenDieuKien.Text;
-            string dieuKien = this.tbDieuKien.Text;
+            string dieuKien = this.tbDieuKien.Text.Trim().Replace("\n", " ");
             maDieuKien = maDieuKien.Replace("'", "''");
             tenDieuKien = tenDieuKien.Replace("'", "''");
             dieuKien = dieuKien.Replace("'", "''");
