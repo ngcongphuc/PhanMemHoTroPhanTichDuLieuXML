@@ -77,7 +77,7 @@ namespace PhanTichDuLieu
 
         private void btnThuocCoDieuKien_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            frmThuocCoDieuKien f = new frmThuocCoDieuKien();
+            frmThuocCoDieuKienNangCao f = new frmThuocCoDieuKienNangCao();
             f.Text = "Truy Vấn Thuốc Theo Điều Kiện";
             f.MdiParent = this;
             f.Show();
@@ -85,7 +85,7 @@ namespace PhanTichDuLieu
 
         private void btnDVKTCoDieuKien_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            frmDVKTCoDieuKien f = new frmDVKTCoDieuKien();
+            frmDVKTCoDieuKienNangCao f = new frmDVKTCoDieuKienNangCao();
             f.Text = "Truy Vấn Dịch Vụ Kỹ Thuật Theo Điều Kiện";
             f.MdiParent = this;
             f.Show();

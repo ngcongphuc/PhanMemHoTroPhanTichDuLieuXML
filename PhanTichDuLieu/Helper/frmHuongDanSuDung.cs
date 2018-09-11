@@ -1,5 +1,6 @@
 ﻿using System.Windows.Forms;
 using System.IO;
+using System.Diagnostics;
 
 namespace PhanTichDuLieu
 {
@@ -9,10 +10,12 @@ namespace PhanTichDuLieu
         {
             InitializeComponent();
 
-            using (frmWaitForm frm = new frmWaitForm(readWord))
+            this.richtbMain.Visible = false;
+            
+            /*using (frmWaitForm frm = new frmWaitForm(readWord))
             {
                 frm.ShowDialog(this);
-            }
+            }*/
         }
 
         public void readWord()
@@ -25,6 +28,18 @@ namespace PhanTichDuLieu
             document.Close();
             IDataObject data = Clipboard.GetDataObject();
             this.richtbMain.Rtf= data.GetData(DataFormats.Rtf).ToString();
+        }
+
+        private void btnHuongDanSuDung_DoubleClick(object sender, System.EventArgs e)
+        {
+            string _strFileName = Directory.GetCurrentDirectory() + @"\Help.docx";
+            Process.Start(_strFileName);
+        }
+
+        private void btnHuongDanSuDung_Click(object sender, System.EventArgs e)
+        {
+            string _strFileName = Directory.GetCurrentDirectory() + @"\Help.docx";
+            Process.Start(_strFileName);
         }
     }
 }

@@ -38,9 +38,10 @@
             this.GroupGiamDinh = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.btnThuocCoDieuKien = new DevExpress.XtraBars.BarButtonItem();
             this.btnDVKTCoDieuKien = new DevExpress.XtraBars.BarButtonItem();
-            this.btnGiamDinhXetNghiem1 = new DevExpress.XtraBars.BarButtonItem();
+            this.btnGiamDinhXetNghiem = new DevExpress.XtraBars.BarButtonItem();
             this.btnGiamDinhChanDoanHinhAnh = new DevExpress.XtraBars.BarButtonItem();
             this.btnGiamDinhNgayGiuong = new DevExpress.XtraBars.BarButtonItem();
+            this.btnGiamDinhXetNghiem1 = new DevExpress.XtraBars.BarButtonItem();
             this.btnThuocCoDieuKienNangCao = new DevExpress.XtraBars.BarButtonItem();
             this.btnDVKTCoDieuKienNangCao = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem4 = new DevExpress.XtraBars.BarButtonItem();
@@ -63,6 +64,11 @@
             this.btnChiaDuLieu = new DevExpress.XtraBars.BarButtonItem();
             this.btnTaiLieuThamKhao = new DevExpress.XtraBars.BarButtonItem();
             this.btnHuongDanSuDung = new DevExpress.XtraBars.BarButtonItem();
+            this.barToggleSwitchItem1 = new DevExpress.XtraBars.BarToggleSwitchItem();
+            this.barHeaderItem1 = new DevExpress.XtraBars.BarHeaderItem();
+            this.barLinkContainerItem1 = new DevExpress.XtraBars.BarLinkContainerItem();
+            this.barButtonItem11 = new DevExpress.XtraBars.BarButtonItem();
+            this.btnThongKe14a = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonPage2 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.GroupQuanTriHeThong = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.btnThietLapHeThong = new DevExpress.XtraBars.BarButtonItem();
@@ -76,7 +82,6 @@
             this.GroupThietLapQuyTacMau = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageDanhMuc = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.GroupThongKe = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.btnThongKe14a = new DevExpress.XtraBars.BarButtonItem();
             this.btnThongKe19a = new DevExpress.XtraBars.BarButtonItem();
             this.btnThongKe20a = new DevExpress.XtraBars.BarButtonItem();
             this.btnThongKe21a = new DevExpress.XtraBars.BarButtonItem();
@@ -116,11 +121,6 @@
             this.barButtonItem8 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem10 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem9 = new DevExpress.XtraBars.BarButtonItem();
-            this.barToggleSwitchItem1 = new DevExpress.XtraBars.BarToggleSwitchItem();
-            this.barHeaderItem1 = new DevExpress.XtraBars.BarHeaderItem();
-            this.barLinkContainerItem1 = new DevExpress.XtraBars.BarLinkContainerItem();
-            this.barButtonItem11 = new DevExpress.XtraBars.BarButtonItem();
-            this.btnGiamDinhXetNghiem = new DevExpress.XtraBars.BarButtonItem();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemFontEdit1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabbedMdiManagerMain)).BeginInit();
@@ -170,7 +170,6 @@
             this.btnThuocCoDieuKien.Id = 24;
             this.btnThuocCoDieuKien.ImageOptions.Image = global::PhanTichDuLieu.Properties.Resources.icons8_pill_50;
             this.btnThuocCoDieuKien.Name = "btnThuocCoDieuKien";
-            this.btnThuocCoDieuKien.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             this.btnThuocCoDieuKien.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnThuocCoDieuKien_ItemClick);
             // 
             // btnDVKTCoDieuKien
@@ -182,13 +181,14 @@
             this.btnDVKTCoDieuKien.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             this.btnDVKTCoDieuKien.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnDVKTCoDieuKien_ItemClick);
             // 
-            // btnGiamDinhXetNghiem1
+            // btnGiamDinhXetNghiem
             // 
-            this.btnGiamDinhXetNghiem1.Caption = "Xét Nghiệm";
-            this.btnGiamDinhXetNghiem1.Id = 26;
-            this.btnGiamDinhXetNghiem1.ImageOptions.Image = global::PhanTichDuLieu.Properties.Resources.icons8_rules_80;
-            this.btnGiamDinhXetNghiem1.Name = "btnGiamDinhXetNghiem1";
-            this.btnGiamDinhXetNghiem1.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnGiamDinhXetNghiem_ItemClick);
+            this.btnGiamDinhXetNghiem.Caption = "Xét Nghiệm";
+            this.btnGiamDinhXetNghiem.Id = 27;
+            this.btnGiamDinhXetNghiem.ImageOptions.Image = global::PhanTichDuLieu.Properties.Resources.icons8_rules_80;
+            this.btnGiamDinhXetNghiem.Name = "btnGiamDinhXetNghiem";
+            this.btnGiamDinhXetNghiem.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.btnGiamDinhXetNghiem.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnGiamDinhXetNghiem_ItemClick);
             // 
             // btnGiamDinhChanDoanHinhAnh
             // 
@@ -207,6 +207,14 @@
             this.btnGiamDinhNgayGiuong.Name = "btnGiamDinhNgayGiuong";
             this.btnGiamDinhNgayGiuong.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             this.btnGiamDinhNgayGiuong.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnGiamDinhNgayGiuong_ItemClick);
+            // 
+            // btnGiamDinhXetNghiem1
+            // 
+            this.btnGiamDinhXetNghiem1.Caption = "Xét Nghiệm";
+            this.btnGiamDinhXetNghiem1.Id = 26;
+            this.btnGiamDinhXetNghiem1.ImageOptions.Image = global::PhanTichDuLieu.Properties.Resources.icons8_rules_80;
+            this.btnGiamDinhXetNghiem1.Name = "btnGiamDinhXetNghiem1";
+            this.btnGiamDinhXetNghiem1.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnGiamDinhXetNghiem_ItemClick);
             // 
             // btnThuocCoDieuKienNangCao
             // 
@@ -447,6 +455,39 @@
             this.btnHuongDanSuDung.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             this.btnHuongDanSuDung.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnHuongDanSuDung_ItemClick);
             // 
+            // barToggleSwitchItem1
+            // 
+            this.barToggleSwitchItem1.Caption = "barToggleSwitchItem1";
+            this.barToggleSwitchItem1.Id = 23;
+            this.barToggleSwitchItem1.Name = "barToggleSwitchItem1";
+            // 
+            // barHeaderItem1
+            // 
+            this.barHeaderItem1.Caption = "barHeaderItem1";
+            this.barHeaderItem1.Id = 24;
+            this.barHeaderItem1.Name = "barHeaderItem1";
+            // 
+            // barLinkContainerItem1
+            // 
+            this.barLinkContainerItem1.Caption = "barLinkContainerItem1";
+            this.barLinkContainerItem1.Id = 25;
+            this.barLinkContainerItem1.Name = "barLinkContainerItem1";
+            // 
+            // barButtonItem11
+            // 
+            this.barButtonItem11.Caption = "barButtonItem11";
+            this.barButtonItem11.Id = 26;
+            this.barButtonItem11.Name = "barButtonItem11";
+            // 
+            // btnThongKe14a
+            // 
+            this.btnThongKe14a.Caption = "Mẫu 14a";
+            this.btnThongKe14a.Id = 7;
+            this.btnThongKe14a.ImageOptions.Image = global::PhanTichDuLieu.Properties.Resources.icons8_doctors_bag_50;
+            this.btnThongKe14a.Name = "btnThongKe14a";
+            this.btnThongKe14a.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.btnThongKe14a.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnThongKe14a_ItemClick);
+            // 
             // ribbonPage2
             // 
             this.ribbonPage2.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
@@ -562,15 +603,6 @@
             this.GroupThongKe.ItemLinks.Add(this.btnThongKe7980a);
             this.GroupThongKe.Name = "GroupThongKe";
             this.GroupThongKe.ShowCaptionButton = false;
-            // 
-            // btnThongKe14a
-            // 
-            this.btnThongKe14a.Caption = "Mẫu 14a";
-            this.btnThongKe14a.Id = 7;
-            this.btnThongKe14a.ImageOptions.Image = global::PhanTichDuLieu.Properties.Resources.icons8_doctors_bag_50;
-            this.btnThongKe14a.Name = "btnThongKe14a";
-            this.btnThongKe14a.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
-            this.btnThongKe14a.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnThongKe14a_ItemClick);
             // 
             // btnThongKe19a
             // 
@@ -856,39 +888,6 @@
             this.barButtonItem9.Id = 75;
             this.barButtonItem9.ImageOptions.Image = global::PhanTichDuLieu.Properties.Resources.icons8_pill_50;
             this.barButtonItem9.Name = "barButtonItem9";
-            // 
-            // barToggleSwitchItem1
-            // 
-            this.barToggleSwitchItem1.Caption = "barToggleSwitchItem1";
-            this.barToggleSwitchItem1.Id = 23;
-            this.barToggleSwitchItem1.Name = "barToggleSwitchItem1";
-            // 
-            // barHeaderItem1
-            // 
-            this.barHeaderItem1.Caption = "barHeaderItem1";
-            this.barHeaderItem1.Id = 24;
-            this.barHeaderItem1.Name = "barHeaderItem1";
-            // 
-            // barLinkContainerItem1
-            // 
-            this.barLinkContainerItem1.Caption = "barLinkContainerItem1";
-            this.barLinkContainerItem1.Id = 25;
-            this.barLinkContainerItem1.Name = "barLinkContainerItem1";
-            // 
-            // barButtonItem11
-            // 
-            this.barButtonItem11.Caption = "barButtonItem11";
-            this.barButtonItem11.Id = 26;
-            this.barButtonItem11.Name = "barButtonItem11";
-            // 
-            // btnGiamDinhXetNghiem
-            // 
-            this.btnGiamDinhXetNghiem.Caption = "Xét Nghiệm";
-            this.btnGiamDinhXetNghiem.Id = 27;
-            this.btnGiamDinhXetNghiem.ImageOptions.Image = global::PhanTichDuLieu.Properties.Resources.icons8_rules_80;
-            this.btnGiamDinhXetNghiem.Name = "btnGiamDinhXetNghiem";
-            this.btnGiamDinhXetNghiem.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
-            this.btnGiamDinhXetNghiem.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnGiamDinhXetNghiem_ItemClick);
             // 
             // frmMain
             // 

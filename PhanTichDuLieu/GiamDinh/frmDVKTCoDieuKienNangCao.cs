@@ -20,9 +20,22 @@ namespace PhanTichDuLieu
         {
             khoiTaoCoSoKCB_lookUpEdit();
             khoiTaoCauTruyVan_lookUpEdit();
+            khoiTaoKhoangThoiGianTruyVan();
         }
 
         #region Khởi Tạo
+
+        public void khoiTaoKhoangThoiGianTruyVan()
+        {
+            string _month = DateTime.Now.Month.ToString();
+            if (DateTime.Now.Month < 10)
+            {
+                _month = "0" + _month;
+            }
+            this.tbThoiGianKetThuc.Text = DateTime.Now.Year.ToString() + _month;
+            this.tbThoiGianBatDau.Text = ((int)DateTime.Now.Year - 1).ToString() + _month;
+
+        }
         public void khoiTaoCauTruyVan_lookUpEdit()
         {
             SqlConnection conn = DBUtils.GetDBConnection();
@@ -188,8 +201,11 @@ namespace PhanTichDuLieu
                 if (this.lookUpEditCauTruyVan.EditValue.ToString() != "Tên Câu Truy Vấn")
                 {
                     //Code
-
+                    string _ngayBatDau = this.tbThoiGianBatDau.Text;
+                    string _ngayKetThuc = this.tbThoiGianKetThuc.Text;
                     string _CauTruyVan = this.lookUpEditCauTruyVan.EditValue.ToString();
+                    _CauTruyVan = _CauTruyVan.Replace("_ngaybatdau_", _ngayBatDau);
+                    _CauTruyVan = _CauTruyVan.Replace("_ngayketthuc_", _ngayKetThuc);
                     _CauTruyVan = _CauTruyVan.Replace("xml123", _MaCSKCB);
 
                     SqlConnection conn = DBUtils.GetDBConnection();
