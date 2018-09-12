@@ -38,6 +38,7 @@ namespace PhanTichDuLieu
         {
             DataTable dt = new DataTable();
             SqlDataAdapter da = new SqlDataAdapter(query, conn);
+            da.SelectCommand.CommandTimeout = 300000;
             da.Fill(dt);
             return dt;
         }

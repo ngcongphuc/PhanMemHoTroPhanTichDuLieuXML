@@ -160,7 +160,7 @@ namespace PhanTichDuLieu
 
             if (maDieuKien != null && tenDieuKien != null && dieuKien != null)
             {
-                string query = "UPDATE dmQueryMau21a SET MaDieuKien = N'" + maDieuKien + "', TenDieuKien = N'" + tenDieuKien + "', DieuKien = N'" + dieuKien + "' WHERE MaDieuKien ='" + maDieuKien + "'";
+                string query = "UPDATE dmQueryMau21a SET TenDieuKien = N'" + tenDieuKien + "', DieuKien = N'" + dieuKien + "' WHERE MaDieuKien ='" + maDieuKien + "'";
 
                 SqlConnection conn = DBUtils.GetDBConnection();
                 conn.Open();
