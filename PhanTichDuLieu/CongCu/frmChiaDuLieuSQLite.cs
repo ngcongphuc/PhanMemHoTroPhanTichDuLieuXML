@@ -10,7 +10,7 @@ namespace PhanTichDuLieu
         {
             //TRUNCATE TABLE
             InitializeComponent();
-            this.lbFooter.Text = "Design by Nguyễn Công Phúc, @123 | Mail: ngcongphuc@gmail.com | 01688.248.266 | BHXH Đăk Nông";
+            this.lbFooter.Text = "Design by BHXH Tỉnh Đăk Nông | Mail: ngcongphuc@gmail.com | 0388.248.266";
             this.WindowState = FormWindowState.Maximized;
             this.tbFileMain.Enabled = false;
             this.lbFileMain.Text = "Dòng Dữ Liệu: 0";

@@ -24,6 +24,16 @@ namespace PhanTichDuLieu
 
         private void FormMain_Load(object sender, EventArgs e)
         {
+            btnGiamDinhXetNghiem.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            btnThuocCoDieuKien.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            btnDVKTCoDieuKien.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+
+            btnThongKe14a.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            btnThongKe19a.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            btnThongKe20a.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            btnThongKe21a.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            btnThongKe7980a.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+
             //Gửi Mail
             MyFunctionDLL.MailHelper myMailHelper = new MyFunctionDLL.MailHelper();
             myMailHelper.sendMail();
@@ -379,6 +389,12 @@ namespace PhanTichDuLieu
             f.Show();
         }
 
-        
+        private void btnChiaDuLieu_7980a_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frmChiaDuLieuSQLite_7980a f = new frmChiaDuLieuSQLite_7980a();
+            f.Text = "Chia dữ liệu SQLite 7980a";
+            f.MdiParent = this;
+            f.Show();
+        }
     }
 }

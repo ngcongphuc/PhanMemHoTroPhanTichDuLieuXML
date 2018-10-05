@@ -124,9 +124,6 @@
   <data name="icons8-access-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\icons8-access-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-mortar-and-pestle-80" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\icons8-mortar-and-pestle-80.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="icons8-dog-tag-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\icons8-dog-tag-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -139,20 +136,17 @@
   <data name="icons8-conversion-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\icons8-conversion-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="hs_banner1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\hs_banner1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="BG_BHXH_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BG_BHXH_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-stethoscope-80" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\icons8-stethoscope-80.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-add-database-50 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\icons8-add-database-50 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-c-drive-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\icons8-c-drive-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="close_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\close_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-glucometer-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\icons8-glucometer-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -171,6 +165,9 @@
   </data>
   <data name="icons8-law-40" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\icons8-law-40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-doctors-bag-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-doctors-bag-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-nook-80" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\icons8-nook-80.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -211,11 +208,11 @@
   <data name="icons8-read-electronic-book-96" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\icons8-read-electronic-book-96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-pill-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\icons8-pill-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-read-online-80(1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-read-online-80(1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-customer-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\icons8-customer-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="hs_banner1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\hs_banner1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-molecule-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\icons8-molecule-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -226,17 +223,20 @@
   <data name="icons8-being-sick-80" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\icons8-being-sick-80.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="exporttoxlsx_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\exporttoxlsx_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-data-backup-50 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-data-backup-50 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-share-80" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\icons8-share-80.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="exporttoxlsx_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exporttoxlsx_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="icons8-read-online-80" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\icons8-read-online-80.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-read-online-80(1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\icons8-read-online-80(1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-stethoscope-80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-stethoscope-80.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="exporttodocx_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\exporttodocx_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -244,11 +244,14 @@
   <data name="icons8-hospital-3-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\icons8-hospital-3-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-doctors-bag-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\icons8-doctors-bag-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-pill-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-pill-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-data-backup-50 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\icons8-data-backup-50 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-mortar-and-pestle-80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-mortar-and-pestle-80.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-customer-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\icons8-customer-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-physical-therapy-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\icons8-physical-therapy-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -259,7 +262,7 @@
   <data name="health_on_the_net" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\health_on_the_net.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="close_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\close_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="splitappointment_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\splitappointment_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -515,3 +515,4 @@ D:\Project C#\PhanMemHoTroPhanTichDuLieuXML\PhanTichDuLieu\obj\Release\Phan Mem 
 D:\Project C#\PhanMemHoTroPhanTichDuLieuXML\PhanTichDuLieu\obj\Release\Phan Mem Ho Tro PhanTich Du Lieu XML.application
 D:\Project C#\PhanMemHoTroPhanTichDuLieuXML\PhanTichDuLieu\obj\Release\Phan Mem Ho Tro PhanTich Du Lieu XML.exe
 D:\Project C#\PhanMemHoTroPhanTichDuLieuXML\PhanTichDuLieu\obj\Release\Phan Mem Ho Tro PhanTich Du Lieu XML.pdb
+D:\Project C#\PhanMemHoTroPhanTichDuLieuXML\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmChiaDuLieuSQLite_7980a.resources

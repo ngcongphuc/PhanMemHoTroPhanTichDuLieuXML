@@ -69,6 +69,7 @@
             this.barLinkContainerItem1 = new DevExpress.XtraBars.BarLinkContainerItem();
             this.barButtonItem11 = new DevExpress.XtraBars.BarButtonItem();
             this.btnThongKe14a = new DevExpress.XtraBars.BarButtonItem();
+            this.btnChiaDuLieu_7980a = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonPage2 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.GroupQuanTriHeThong = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.btnThietLapHeThong = new DevExpress.XtraBars.BarButtonItem();
@@ -88,6 +89,7 @@
             this.btnThongKe7980a = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonPage8 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.GroupCongCu = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.ribbonPageGroup2 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPage7 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.GroupTroGiup = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.btnThoat = new DevExpress.XtraBars.BarButtonItem();
@@ -178,7 +180,6 @@
             this.btnDVKTCoDieuKien.Id = 41;
             this.btnDVKTCoDieuKien.ImageOptions.Image = global::PhanTichDuLieu.Properties.Resources.icons8_physical_therapy_50;
             this.btnDVKTCoDieuKien.Name = "btnDVKTCoDieuKien";
-            this.btnDVKTCoDieuKien.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             this.btnDVKTCoDieuKien.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnDVKTCoDieuKien_ItemClick);
             // 
             // btnGiamDinhXetNghiem
@@ -285,10 +286,11 @@
             this.barLinkContainerItem1,
             this.barButtonItem11,
             this.btnThongKe14a,
-            this.btnGiamDinhXetNghiem});
+            this.btnGiamDinhXetNghiem,
+            this.btnChiaDuLieu_7980a});
             this.ribbonControl1.Location = new System.Drawing.Point(0, 0);
             this.ribbonControl1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.ribbonControl1.MaxItemId = 28;
+            this.ribbonControl1.MaxItemId = 30;
             this.ribbonControl1.Name = "ribbonControl1";
             this.ribbonControl1.OptionsAnimation.PageCategoryShowAnimation = DevExpress.Utils.DefaultBoolean.False;
             this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
@@ -430,9 +432,9 @@
             // 
             // btnChiaDuLieu
             // 
-            this.btnChiaDuLieu.Caption = "Chia DB SQLite";
+            this.btnChiaDuLieu.Caption = "Chia XML123";
             this.btnChiaDuLieu.Id = 70;
-            this.btnChiaDuLieu.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnChiaDuLieu.ImageOptions.Image")));
+            this.btnChiaDuLieu.ImageOptions.Image = global::PhanTichDuLieu.Properties.Resources.splitappointment_32x32;
             this.btnChiaDuLieu.Name = "btnChiaDuLieu";
             this.btnChiaDuLieu.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             this.btnChiaDuLieu.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnChiaDuLieu_ItemClick);
@@ -481,12 +483,21 @@
             // 
             // btnThongKe14a
             // 
-            this.btnThongKe14a.Caption = "Mẫu 14a";
+            this.btnThongKe14a.Caption = "Các Chỉ Số";
             this.btnThongKe14a.Id = 7;
             this.btnThongKe14a.ImageOptions.Image = global::PhanTichDuLieu.Properties.Resources.icons8_doctors_bag_50;
             this.btnThongKe14a.Name = "btnThongKe14a";
             this.btnThongKe14a.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             this.btnThongKe14a.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnThongKe14a_ItemClick);
+            // 
+            // btnChiaDuLieu_7980a
+            // 
+            this.btnChiaDuLieu_7980a.Caption = "Chia 7980a";
+            this.btnChiaDuLieu_7980a.Id = 28;
+            this.btnChiaDuLieu_7980a.ImageOptions.Image = global::PhanTichDuLieu.Properties.Resources.splitappointment_32x32;
+            this.btnChiaDuLieu_7980a.Name = "btnChiaDuLieu_7980a";
+            this.btnChiaDuLieu_7980a.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.btnChiaDuLieu_7980a.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnChiaDuLieu_7980a_ItemClick);
             // 
             // ribbonPage2
             // 
@@ -606,44 +617,41 @@
             // 
             // btnThongKe19a
             // 
-            this.btnThongKe19a.Caption = "Mẫu 19a";
+            this.btnThongKe19a.Caption = "Vật Tư Y Tế";
             this.btnThongKe19a.Id = 10;
             this.btnThongKe19a.ImageOptions.Image = global::PhanTichDuLieu.Properties.Resources.icons8_doctors_bag_50;
             this.btnThongKe19a.Name = "btnThongKe19a";
-            this.btnThongKe19a.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             this.btnThongKe19a.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnThongKe19a_ItemClick);
             // 
             // btnThongKe20a
             // 
-            this.btnThongKe20a.Caption = "Mẫu 20a";
+            this.btnThongKe20a.Caption = "Thuốc";
             this.btnThongKe20a.Id = 8;
             this.btnThongKe20a.ImageOptions.Image = global::PhanTichDuLieu.Properties.Resources.icons8_doctors_bag_50;
             this.btnThongKe20a.Name = "btnThongKe20a";
-            this.btnThongKe20a.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             this.btnThongKe20a.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnThongKe20a_ItemClick);
             // 
             // btnThongKe21a
             // 
-            this.btnThongKe21a.Caption = "Mẫu 21a";
+            this.btnThongKe21a.Caption = "Danh Mục Kỹ Thuật";
             this.btnThongKe21a.Id = 9;
             this.btnThongKe21a.ImageOptions.Image = global::PhanTichDuLieu.Properties.Resources.icons8_doctors_bag_50;
             this.btnThongKe21a.Name = "btnThongKe21a";
-            this.btnThongKe21a.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             this.btnThongKe21a.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnThongKe21a_ItemClick);
             // 
             // btnThongKe7980a
             // 
-            this.btnThongKe7980a.Caption = "Mẫu 7980a";
+            this.btnThongKe7980a.Caption = "Khám/Ngày Giường";
             this.btnThongKe7980a.Id = 11;
             this.btnThongKe7980a.ImageOptions.Image = global::PhanTichDuLieu.Properties.Resources.icons8_doctors_bag_50;
             this.btnThongKe7980a.Name = "btnThongKe7980a";
-            this.btnThongKe7980a.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             this.btnThongKe7980a.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnThongKe7980a_ItemClick);
             // 
             // ribbonPage8
             // 
             this.ribbonPage8.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
-            this.GroupCongCu});
+            this.GroupCongCu,
+            this.ribbonPageGroup2});
             this.ribbonPage8.Name = "ribbonPage8";
             this.ribbonPage8.Text = "Công Cụ";
             // 
@@ -651,8 +659,15 @@
             // 
             this.GroupCongCu.ItemLinks.Add(this.btnNoiDuLieu);
             this.GroupCongCu.ItemLinks.Add(this.btnNoiDuLieu_KQT);
-            this.GroupCongCu.ItemLinks.Add(this.btnChiaDuLieu);
             this.GroupCongCu.Name = "GroupCongCu";
+            // 
+            // ribbonPageGroup2
+            // 
+            this.ribbonPageGroup2.AllowTextClipping = false;
+            this.ribbonPageGroup2.ItemLinks.Add(this.btnChiaDuLieu);
+            this.ribbonPageGroup2.ItemLinks.Add(this.btnChiaDuLieu_7980a);
+            this.ribbonPageGroup2.Name = "ribbonPageGroup2";
+            this.ribbonPageGroup2.ShowCaptionButton = false;
             // 
             // ribbonPage7
             // 
@@ -1008,6 +1023,8 @@
         private DevExpress.XtraBars.BarLinkContainerItem barLinkContainerItem1;
         private DevExpress.XtraBars.BarButtonItem barButtonItem11;
         private DevExpress.XtraBars.BarButtonItem btnGiamDinhXetNghiem;
+        private DevExpress.XtraBars.BarButtonItem btnChiaDuLieu_7980a;
+        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup2;
     }
 }
 

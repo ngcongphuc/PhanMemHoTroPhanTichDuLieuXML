@@ -62,8 +62,8 @@ namespace PhanTichDuLieu
              + "GT_The_Tu nvarchar(MAX),GT_The_Den nvarchar(MAX),Mien_Cung_CT nvarchar(MAX),Ngay_Vao nvarchar(MAX),Ngay_Ra nvarchar(MAX),So_Ngay_DTri nvarchar(MAX),Ma_LyDo_VVien nvarchar(MAX),Ma_Benh nvarchar(MAX),Ma_BenhKhac nvarchar(MAX),Muc_Huong_XML1 nvarchar(MAX),T_TongChi numeric(18,0),T_BNTT numeric(18,0),T_BHTT numeric(18,0),T_BNCCT numeric(18,0),"
              + "T_XN numeric(18,0),T_CDHA numeric(18,0), T_Thuoc numeric(18,0),T_Mau numeric(18,0),T_TTPT numeric(18,0),T_VTYT numeric(18,0),T_DVKT_TyLe numeric(18,0),T_Thuoc_TyLe numeric(18,0),T_VTYT_TyLe numeric(18,0),"
              + "T_Kham numeric(18,0),T_Giuong numeric(18,0),T_VChuyen numeric(18,0),T_NgoaiDS numeric(18,0),T_NguonKhac numeric(18,0),Ma_Loai_KCB nvarchar(MAX),ID_CP nvarchar(MAX),Loai_CP nvarchar(MAX),Ma_CP nvarchar(MAX),"
-             + "Ma_Vat_Tu nvarchar(MAX),Ma_Nhom nvarchar(MAX),Ten_CP nvarchar(MAX),DVT nvarchar(MAX),So_Dang_Ky nvarchar(MAX),Ham_Luong nvarchar(MAX),Duong_Dung nvarchar(MAX),So_Luong nvarchar(MAX),"
-             + "So_Luong_BV nvarchar(MAX),Don_Gia nvarchar(MAX),Don_Gia_BV nvarchar(MAX),Thanh_Tien nvarchar(MAX),TyLe_TT nvarchar(MAX),Ngay_YL nvarchar(MAX),"
+             + "Ma_Vat_Tu nvarchar(MAX),Ma_Nhom nvarchar(MAX),Ten_CP nvarchar(MAX),DVT nvarchar(MAX),So_Dang_Ky nvarchar(MAX),Ham_Luong nvarchar(MAX),Duong_Dung nvarchar(MAX),So_Luong numeric(18,0),"
+             + "So_Luong_BV numeric(18,0),Don_Gia numeric(18,0),Don_Gia_BV numeric(18,0),Thanh_Tien numeric(18,0),TyLe_TT nvarchar(MAX),Ngay_YL nvarchar(MAX),"
              + "Ngay_KQ nvarchar(MAX),T_NguonKhac_DTL numeric(18,0),T_BNTT_DTL numeric(18,0),"
              + "T_BHTT_DTL numeric(18,0),T_BNCCT_DTL numeric(18,0),T_NgoaiDS_DTL numeric(18,0),Muc_Huong_DTL nvarchar(MAX),TT_Thau nvarchar(MAX),Pham_Vi nvarchar(MAX),Ma_Giuong nvarchar(MAX),"
              + "T_TranTT numeric(18,0),Goi_VTYT nvarchar(MAX),Ten_Vat_Tu nvarchar(MAX),"
@@ -98,10 +98,10 @@ namespace PhanTichDuLieu
             query = "CREATE TABLE " + tenTable + "(ID nvarchar(MAX),XML1_ID nvarchar(MAX),Ky_QT nvarchar(MAX),CoSoKCB_ID nvarchar(MAX),Ma_CSKCB nvarchar(MAX),"
              + "Ma_LK nvarchar(MAX),MA_BN nvarchar(MAX),Ho_Ten nvarchar(MAX),Ngay_Sinh nvarchar(MAX),Gioi_Tinh nvarchar(MAX),Ma_The nvarchar(MAX),Ma_DKBD nvarchar(MAX),"
              + "GT_The_Tu nvarchar(MAX),GT_The_Den nvarchar(MAX),Mien_Cung_CT nvarchar(MAX),Ngay_Vao nvarchar(MAX),Ngay_Ra nvarchar(MAX),So_Ngay_DTri nvarchar(MAX),Ma_LyDo_VVien nvarchar(MAX),Ma_Benh nvarchar(MAX),Ma_BenhKhac nvarchar(MAX),Muc_Huong_XML1 nvarchar(MAX),T_TongChi numeric(18,0),T_BNTT numeric(18,0),T_BHTT numeric(18,0),T_BNCCT numeric(18,0),"
-             + "T_XN numeric(18,0),T_CDHA numeric(18,0), T_Thuoc numeric(18,0),T_Mau numeric(18,0),T_TTPT numeric(18,0),T_VTYT numeric(18,0),T_DVKT_TyLe numeric(18,0),T_Thuoc_TyLe numeric(18,0),T_VTYT_TyLe numeric(18,0),"
+             + "T_XN numeric(18,0),T_CDHA numeric(18,0), T_Thuoc numeric(18,0),T_Mau numeric(18,0),T_TTPT numeric(18,0),T_VTYT numeric(18,0),T_DVKT_TyLe nvarchar(MAX),T_Thuoc_TyLe nvarchar(MAX),T_VTYT_TyLe nvarchar(MAX),"
              + "T_Kham numeric(18,0),T_Giuong numeric(18,0),T_VChuyen numeric(18,0),T_NgoaiDS numeric(18,0),T_NguonKhac numeric(18,0),Ma_Loai_KCB nvarchar(MAX),ID_CP nvarchar(MAX),Loai_CP nvarchar(MAX),Ma_CP nvarchar(MAX),"
-             + "Ma_Vat_Tu nvarchar(MAX),Ma_Nhom nvarchar(MAX),Ten_CP nvarchar(MAX),DVT nvarchar(MAX),So_Dang_Ky nvarchar(MAX),Ham_Luong nvarchar(MAX),Duong_Dung nvarchar(MAX),So_Luong nvarchar(MAX),"
-             + "So_Luong_BV nvarchar(MAX),Don_Gia nvarchar(MAX),Don_Gia_BV nvarchar(MAX),Thanh_Tien nvarchar(MAX),TyLe_TT nvarchar(MAX),Ngay_YL nvarchar(MAX),"
+             + "Ma_Vat_Tu nvarchar(MAX),Ma_Nhom nvarchar(MAX),Ten_CP nvarchar(MAX),DVT nvarchar(MAX),So_Dang_Ky nvarchar(MAX),Ham_Luong nvarchar(MAX),Duong_Dung nvarchar(MAX),So_Luong numeric(18,0),"
+             + "So_Luong_BV numeric(18,0),Don_Gia numeric(18,0),Don_Gia_BV numeric(18,0),Thanh_Tien numeric(18,0),TyLe_TT nvarchar(MAX),Ngay_YL nvarchar(MAX),"
              + "Ngay_KQ nvarchar(MAX),T_NguonKhac_DTL numeric(18,0),T_BNTT_DTL numeric(18,0),"
              + "T_BHTT_DTL numeric(18,0),T_BNCCT_DTL numeric(18,0),T_NgoaiDS_DTL numeric(18,0),Muc_Huong_DTL nvarchar(MAX),TT_Thau nvarchar(MAX),Pham_Vi nvarchar(MAX),Ma_Giuong nvarchar(MAX),"
              + "T_TranTT numeric(18,0),Goi_VTYT nvarchar(MAX),Ten_Vat_Tu nvarchar(MAX),"
@@ -260,7 +260,7 @@ namespace PhanTichDuLieu
                 + "HO_TEN nvarchar(400), "
                 + "NGAY_SINH nvarchar(400), "
                 + "GIOI_TINH nvarchar(1), "
-                + "DIA_CHI nvarchar(400), "
+                + "DIA_CHI nvarchar(MAX), "
                 + "MA_THE nvarchar(400), "
                 + "MA_TINH_THE nvarchar(400), "
                 + "MA_DKBD nvarchar(400), "
@@ -269,105 +269,7 @@ namespace PhanTichDuLieu
                 + "GT_THE_DEN nvarchar(400), "
                 + "MIEN_CUNG_CT nvarchar(400), "
                 + "MA_BENH nvarchar(400), "
-                + "TEN_BENH nvarchar(400), "
-                + "MA_BENHKHAC nvarchar(400), "
-                + "MA_LYDO_VVIEN nvarchar(400), "
-                + "MA_NOI_CHUYEN nvarchar(400), "
-                + "NGAY_VAO nvarchar(400), "
-                + "NGAY_RA nvarchar(400), "
-                + "SO_NGAY_DTRI nvarchar(400), "
-                + "KET_QUA_DTRI nvarchar(400), "
-                + "TINH_TRANG_RV nvarchar(400), "
-                + "T_TONGCHI nvarchar(400), "
-                + "T_XN nvarchar(400), "
-                + "T_CDHA nvarchar(400), "
-                + "T_THUOC nvarchar(400), "
-                + "T_MAU nvarchar(400), "
-                + "T_TTPT nvarchar(400), "
-                + "T_VTYT nvarchar(400), "
-                + "T_DVKT_TYLE nvarchar(400), "
-                + "T_THUOC_TYLE nvarchar(400), "
-                + "T_VTYT_TYLE nvarchar(400), "
-                + "T_KHAM nvarchar(400), "
-                + "T_GIUONG nvarchar(400), "
-                + "T_VCHUYEN nvarchar(400), "
-                + "T_BNTT nvarchar(400), "
-                + "T_BHTT nvarchar(400), "
-                + "T_BNCCT nvarchar(400), "
-                + "T_NGOAIDS nvarchar(400), "
-                + "T_NGUONKHAC nvarchar(400), "
-                + "MA_KHOA nvarchar(100), "
-                + "NAM_QT nvarchar(50), "
-                + "QUY_QT nvarchar(20), "
-                + "THANG_QT nvarchar(20), "
-                + "MA_KHUVUC nvarchar(20), "
-                + "MA_LOAI_KCB nvarchar(20), "
-                + "LOAI_BN nvarchar(20), "
-                + "LOAI_THE nvarchar(20), "
-                + "TRONG_MAU nvarchar(400), "
-                + "GIAM_DINH nvarchar(400), "
-                + "T_XUATTOAN_TONGCHI nvarchar(400), "
-                + "T_XUATTOAN nvarchar(400), "
-                + "LYDO_XT nvarchar(100), "
-                + "T_DATUYEN nvarchar(400), "
-                + "T_VUOTTRAN nvarchar(400), "
-                + "NGAY_NHAN nvarchar(400), "
-                + "TENKIEUBV nvarchar(400), "
-                + "MA_TAI_NAN nvarchar(400), "
-                + "NGAY_TTOAN nvarchar(400), "
-                + "MA_PTTT_QT nvarchar(400), "
-                + "CAN_NANG nvarchar(400));";
-
-
-            SqlConnection conn = DBUtils.GetDBConnection();
-            conn.Open();
-            try
-            {
-                if (DBUtils.ExecuteNonQuery(query, conn) > 0)
-                {
-                    //MessageBox.Show("Tạo Table Thành Công");
-                }
-            }
-            catch (SqlException ex)
-            {
-                // MessageBox.Show("Error: " + ex.ToString());
-            }
-            finally
-            {
-                conn.Close();
-                conn.Dispose();
-            }
-
-        }
-
-        public void taoTable_dmMau7980a_dtdi(string _tenTable)
-        {
-            string tenTable = _tenTable;
-
-            string query = "CREATE TABLE " + tenTable
-                + "(MA_TINH_KCB nvarchar(400), "
-                + "TEN_TINH_KCB nvarchar(400), "
-                + "TUYENCMKT nvarchar(50), "
-                + "TEN_CSKCB nvarchar(400), "
-                + "ID nvarchar(50), "
-                + "KY_QT nvarchar(400), "
-                + "COSOKCB_ID nvarchar(400), "
-                + "MA_LK nvarchar(400), "
-                + "MA_CSKCB nvarchar(400), "
-                + "MA_BN nvarchar(400), "
-                + "HO_TEN nvarchar(400), "
-                + "NGAY_SINH nvarchar(400), "
-                + "GIOI_TINH nvarchar(1), "
-                + "DIA_CHI nvarchar(400), "
-                + "MA_THE nvarchar(400), "
-                + "MA_TINH nvarchar(400), "
-                + "MA_DKBD nvarchar(400), "
-                + "MUC_HUONG nvarchar(400), "
-                + "GT_THE_TU nvarchar(400), "
-                + "GT_THE_DEN nvarchar(400), "
-                + "MIEN_CUNG_CT nvarchar(400), "
-                + "MA_BENH nvarchar(400), "
-                + "TEN_BENH nvarchar(400), "
+                + "TEN_BENH nvarchar(MAX), "
                 + "MA_BENHKHAC nvarchar(400), "
                 + "MA_LYDO_VVIEN nvarchar(400), "
                 + "MA_NOI_CHUYEN nvarchar(400), "
@@ -383,9 +285,9 @@ namespace PhanTichDuLieu
                 + "T_MAU numeric(18,0), "
                 + "T_TTPT numeric(18,0), "
                 + "T_VTYT numeric(18,0), "
-                + "T_DVKT_TYLE numeric(18,0), "
-                + "T_THUOC_TYLE numeric(18,0), "
-                + "T_VTYT_TYLE numeric(18,0), "
+                + "T_DVKT_TYLE nvarchar(400), "
+                + "T_THUOC_TYLE nvarchar(400), "
+                + "T_VTYT_TYLE nvarchar(400), "
                 + "T_KHAM numeric(18,0), "
                 + "T_GIUONG numeric(18,0), "
                 + "T_VCHUYEN numeric(18,0), "
@@ -437,6 +339,180 @@ namespace PhanTichDuLieu
             }
 
         }
+
+        public void taoTable_dmMau7980a_dtdi(string _tenTable)
+        {
+            string tenTable = _tenTable;
+            /* LỖI Ở ĐÂY
+                + "T_NGOAIDS nvarchar(MAX), "
+                + "T_NGUONKHAC nvarchar(MAX), "
+
+
+            */
+            string query = "CREATE TABLE " + tenTable
+                + "(MA_TINH_KCB nvarchar(MAX), "
+                + "TEN_TINH_KCB nvarchar(MAX), "
+                + "TUYENCMKT nvarchar(50), "
+                + "TEN_CSKCB nvarchar(MAX), "
+                + "ID nvarchar(50), "
+                + "KY_QT nvarchar(MAX), "
+                + "COSOKCB_ID nvarchar(MAX), "
+                + "MA_LK nvarchar(MAX), "
+                + "MA_CSKCB nvarchar(MAX), "
+                + "MA_BN nvarchar(MAX), "
+                + "HO_TEN nvarchar(MAX), "
+                + "NGAY_SINH nvarchar(MAX), "
+                + "GIOI_TINH nvarchar(1), "
+                + "DIA_CHI nvarchar(MAX), "
+                + "MA_THE nvarchar(MAX), "
+                + "MA_TINH nvarchar(MAX), "
+                + "MA_DKBD nvarchar(MAX), "
+                + "MUC_HUONG nvarchar(MAX), "
+                + "GT_THE_TU nvarchar(MAX), "
+                + "GT_THE_DEN nvarchar(MAX), "
+                + "MIEN_CUNG_CT nvarchar(MAX), "
+                + "MA_BENH nvarchar(MAX), "
+                + "TEN_BENH nvarchar(MAX), "
+                + "MA_BENHKHAC nvarchar(MAX), "
+                + "MA_LYDO_VVIEN nvarchar(MAX), "
+                + "MA_NOI_CHUYEN nvarchar(MAX), "
+                + "NGAY_VAO nvarchar(MAX), "
+                + "NGAY_RA nvarchar(MAX), "
+                + "SO_NGAY_DTRI nvarchar(MAX), "
+                + "KET_QUA_DTRI nvarchar(MAX), "
+                + "TINH_TRANG_RV nvarchar(MAX), "
+                + "T_TONGCHI numeric(18,5), "
+                + "T_XN numeric(18,5), "
+                + "T_CDHA numeric(18,5), "
+                + "T_THUOC numeric(18,5), "
+                + "T_MAU numeric(18,5), "
+                + "T_TTPT numeric(18,5), "
+                + "T_VTYT numeric(18,5), "
+                + "T_DVKT_TYLE nvarchar(MAX), "
+                + "T_THUOC_TYLE nvarchar(MAX), "
+                + "T_VTYT_TYLE nvarchar(MAX), "
+                + "T_KHAM numeric(18,5), "
+                + "T_GIUONG numeric(18,5), "
+                + "T_VCHUYEN numeric(18,5), "
+                + "T_BNTT numeric(18,5), "
+                + "T_BHTT numeric(18,5), "
+                + "T_BNCCT numeric(18,5), "
+                + "T_NGOAIDS nvarchar(MAX), "
+                + "T_NGUONKHAC nvarchar(MAX), "
+                + "MA_KHOA nvarchar(100), "
+                + "NAM_QT nvarchar(50), "
+                + "QUY_QT nvarchar(20), "
+                + "THANG_QT nvarchar(20), "
+                + "MA_KHUVUC nvarchar(20), "
+                + "MA_LOAI_KCB nvarchar(20), "
+                + "LOAI_BN nvarchar(20), "
+                + "LOAI_THE nvarchar(20), "
+                + "TRONG_MAU nvarchar(400), "
+                + "GIAM_DINH nvarchar(400), "
+                + "T_XUATTOAN_TONGCHI numeric(18,5), "
+                + "T_XUATTOAN numeric(18,5), "
+                + "LYDO_XT nvarchar(100), "
+                + "T_DATUYEN numeric(18,5), "
+                + "T_VUOTTRAN numeric(18,5), "
+                + "NGAY_NHAN nvarchar(400), "
+                + "TENKIEUBV nvarchar(400), "
+                + "MA_TAI_NAN nvarchar(400), "
+                + "NGAY_TTOAN nvarchar(400), "
+                + "MA_PTTT_QT nvarchar(400), "
+                + "CAN_NANG nvarchar(400));";
+
+            /*
+            query = "CREATE TABLE " + tenTable
+                + "(MA_TINH_KCB nvarchar(400), "
+                + "TEN_TINH_KCB nvarchar(400), "
+                + "TUYENCMKT nvarchar(400), "
+                + "TEN_CSKCB nvarchar(400), "
+                + "ID nvarchar(50), "
+                + "KY_QT nvarchar(400), "
+                + "COSOKCB_ID nvarchar(400), "
+                + "MA_LK nvarchar(400), "
+                + "MA_CSKCB nvarchar(400), "
+                + "MA_BN nvarchar(400), "
+                + "HO_TEN nvarchar(400), "
+                + "NGAY_SINH nvarchar(400), "
+                + "GIOI_TINH nvarchar(1), "
+                + "DIA_CHI nvarchar(MAX), "
+                + "MA_THE nvarchar(400), "
+                + "MA_TINH_THE nvarchar(400), "
+                + "MA_DKBD nvarchar(400), "
+                + "MUC_HUONG nvarchar(400), "
+                + "GT_THE_TU nvarchar(400), "
+                + "GT_THE_DEN nvarchar(400), "
+                + "MIEN_CUNG_CT nvarchar(400), "
+                + "MA_BENH nvarchar(400), "
+                + "TEN_BENH nvarchar(MAX), "
+                + "MA_BENHKHAC nvarchar(400), "
+                + "MA_LYDO_VVIEN nvarchar(400), "
+                + "MA_NOI_CHUYEN nvarchar(400), "
+                + "NGAY_VAO nvarchar(400), "
+                + "NGAY_RA nvarchar(400), "
+                + "SO_NGAY_DTRI nvarchar(400), "
+                + "KET_QUA_DTRI nvarchar(400), "
+                + "TINH_TRANG_RV nvarchar(400), "
+                + "T_TONGCHI numeric(18,5), "
+                + "T_XN numeric(18,5), "
+                + "T_CDHA numeric(18,5), "
+                + "T_THUOC numeric(18,5), "
+                + "T_MAU numeric(18,5), "
+                + "T_TTPT numeric(18,5), "
+                + "T_VTYT numeric(18,5), "
+                + "T_DVKT_TYLE nvarchar(400), "
+                + "T_THUOC_TYLE nvarchar(400), "
+                + "T_VTYT_TYLE nvarchar(400), "
+                + "T_KHAM numeric(18,5), "
+                + "T_GIUONG numeric(18,5), "
+                + "T_VCHUYEN numeric(18,5), "
+                + "T_BNTT numeric(18,5), "
+                + "T_BHTT numeric(18,5), "
+                + "T_BNCCT numeric(18,5), "
+                + "T_NGOAIDS numeric(18,5), "
+                + "T_NGUONKHAC numeric(18,5), "
+                + "MA_KHOA nvarchar(100), "
+                + "NAM_QT nvarchar(50), "
+                + "QUY_QT nvarchar(20), "
+                + "THANG_QT nvarchar(20), "
+                + "MA_KHUVUC nvarchar(20), "
+                + "MA_LOAI_KCB nvarchar(20), "
+                + "LOAI_BN nvarchar(20), "
+                + "LOAI_THE nvarchar(20), "
+                + "TRONG_MAU nvarchar(400), "
+                + "GIAM_DINH nvarchar(400), "
+                + "T_XUATTOAN_TONGCHI numeric(18,5), "
+                + "T_XUATTOAN numeric(18,5), "
+                + "LYDO_XT nvarchar(100), "
+                + "T_DATUYEN numeric(18,5), "
+                + "T_VUOTTRAN numeric(18,5), "
+                + "NGAY_NHAN nvarchar(400), "
+                + "TENKIEUBV nvarchar(400), "
+                + "MA_TAI_NAN nvarchar(400), "
+                + "NGAY_TTOAN nvarchar(400), "
+                + "MA_PTTT_QT nvarchar(400), "
+                + "CAN_NANG nvarchar(400));";*/
+            SqlConnection conn = DBUtils.GetDBConnection();
+            conn.Open();
+            try
+            {
+                if (DBUtils.ExecuteNonQuery(query, conn) > 0)
+                {
+                    //MessageBox.Show("Tạo Table Thành Công");
+                }
+            }
+            catch (SqlException ex)
+            {
+                // MessageBox.Show("Error: " + ex.ToString());
+            }
+            finally
+            {
+                conn.Close();
+                conn.Dispose();
+            }
+
+        }
         public void taoTable_dmMau21a(string _tenTable)
         {
             string tenTable = _tenTable;
@@ -454,10 +530,10 @@ namespace PhanTichDuLieu
                 + "MA_NHOM nvarchar(400), "
                 + "DON_GIA nvarchar(400), "
                 + "TYLE_TT nvarchar(400), "
-                + "SL_NGOAI_TRU nvarchar(400), "
-                + "SL_NOI_TRU nvarchar(400), "
-                + "SO_LUONG nvarchar(400), "
-                + "THANH_TIEN nvarchar(400), "
+                + "SL_NGOAI_TRU numeric(18,0), "
+                + "SL_NOI_TRU numeric(18,0), "
+                + "SO_LUONG numeric(18,0), "
+                + "THANH_TIEN numeric(18,0), "
                 + "HANGBENHVIEN nvarchar(400), "
                 + "TUYENCMKT nvarchar(400), "
                 + "KIEUBV nvarchar(400), "
@@ -509,12 +585,12 @@ namespace PhanTichDuLieu
                 + "SO_DANG_KY nvarchar(400), "
                 + "MA_NHOM nvarchar(400), "
                 + "DON_VI_TINH nvarchar(400), "
-                + "SL_NGOAI_TRU nvarchar(400), "
-                + "SL_NOI_TRU nvarchar(400), "
-                + "SO_LUONG nvarchar(400), "
-                + "DON_GIA nvarchar(400), "
+                + "SL_NGOAI_TRU numeric(18,0), "
+                + "SL_NOI_TRU nnumeric(18,0), "
+                + "SO_LUONG numeric(18,0), "
+                + "DON_GIA numeric(18,0), "
                 + "TYLE_TT nvarchar(400), "
-                + "THANH_TIEN nvarchar(400), "
+                + "THANH_TIEN numeric(18,0), "
                 + "HANGBENHVIEN nvarchar(400), "
                 + "TUYENCMKT nvarchar(400), "
                 + "KIEUBV nvarchar(400), "
@@ -567,13 +643,13 @@ namespace PhanTichDuLieu
                 + "TEN_THUONG_MAI nvarchar(400), "
                 + "QUYCACH nvarchar(400), "
                 + "DONVITINH nvarchar(400), "
-                + "SL_NGOAI_TRU nvarchar(400), "
-                + "SL_NOI_TRU nvarchar(400), "
-                + "SO_LUONG nvarchar(400), "
-                + "DON_GIA_BV nvarchar(400), "
-                + "DON_GIA_BHYT nvarchar(400), "
+                + "SL_NGOAI_TRU numeric(18,0), "
+                + "SL_NOI_TRU numeric(18,0), "
+                + "SO_LUONG numeric(18,0), "
+                + "DON_GIA_BV numeric(18,0), "
+                + "DON_GIA_BHYT numeric(18,0), "
                 + "TYLE_TT nvarchar(400), "
-                + "THANH_TIEN nvarchar(400));";
+                + "THANH_TIEN numeric(18,0));";
 
 
             SqlConnection conn = DBUtils.GetDBConnection();
@@ -612,37 +688,37 @@ namespace PhanTichDuLieu
                 + "LUOT_DUNG_TUYEN nvarchar(400), "
                 + "LUOT_TRAI_TUYEN nvarchar(400), "
                 + "LUOT_KCB nvarchar(400), "
-                + "T_TONGCHI nvarchar(400), "
-                + "T_BHTT nvarchar(400), "
-                + "T_BNTT nvarchar(400), "
-                + "T_NGUON_KHAC nvarchar(400), "
-                + "T_NGOAI_DS nvarchar(400), "
-                + "SO_NGAY_DTRI nvarchar(400), "
-                + "T_XN nvarchar(400), "
-                + "T_CDHA nvarchar(400), "
-                + "T_THUOC nvarchar(400), "
-                + "T_MAU nvarchar(400), "
-                + "T_TTPT nvarchar(400), "
-                + "T_VTYT nvarchar(400), "
-                + "T_DVKT_TYLE nvarchar(400), "
-                + "T_THUOC_TYLE nvarchar(400), "
-                + "T_VTYT_TYLE nvarchar(400), "
-                + "T_KHAM nvarchar(400), "
-                + "T_VCHUYEN nvarchar(400), "
-                + "T_GIUONG nvarchar(400), "
+                + "T_TONGCHI numeric(18,0), "
+                + "T_BHTT numeric(18,0), "
+                + "T_BNTT numeric(18,0), "
+                + "T_NGUON_KHAC numeric(18,0), "
+                + "T_NGOAI_DS numeric(18,0), "
+                + "SO_NGAY_DTRI numeric(18,0), "
+                + "T_XN numeric(18,0), "
+                + "T_CDHA numeric(18,0), "
+                + "T_THUOC numeric(18,0), "
+                + "T_MAU numeric(18,0), "
+                + "T_TTPT numeric(18,0), "
+                + "T_VTYT numeric(18,0), "
+                + "T_DVKT_TYLE numeric(18,0), "
+                + "T_THUOC_TYLE numeric(18,0), "
+                + "T_VTYT_TYLE numeric(18,0), "
+                + "T_KHAM numeric(18,0), "
+                + "T_VCHUYEN numeric(18,0), "
+                + "T_GIUONG numeric(18,0), "
                 + "QUY_QT nvarchar(400), "
-                + "SL_XETNGHIEM nvarchar(400), "
-                + "SL_CDHA nvarchar(400), "
-                + "SL_THUOC nvarchar(400), "
-                + "SL_MAU nvarchar(400), "
-                + "SL_TTPT nvarchar(400), "
-                + "SL_VTYT nvarchar(400), "
-                + "SL_DVKT_TYLE nvarchar(400), "
-                + "SL_THUOC_TYLE nvarchar(400), "
-                + "SL_VTYT_TYLE nvarchar(400), "
-                + "SL_KHAM nvarchar(400), "
-                + "SL_GIUONG nvarchar(400), "
-                + "SL_VAN_CHUYEN nvarchar(400), "
+                + "SL_XETNGHIEM numeric(18,0), "
+                + "SL_CDHA numeric(18,0), "
+                + "SL_THUOC numeric(18,0), "
+                + "SL_MAU numeric(18,0), "
+                + "SL_TTPT numeric(18,0), "
+                + "SL_VTYT numeric(18,0), "
+                + "SL_DVKT_TYLE numeric(18,0), "
+                + "SL_THUOC_TYLE numeric(18,0), "
+                + "SL_VTYT_TYLE numeric(18,0), "
+                + "SL_KHAM numeric(18,0), "
+                + "SL_GIUONG numeric(18,0), "
+                + "SL_VAN_CHUYEN numeric(18,0), "
                 + "HANGBV nvarchar(400), "
                 + "TUYENBV nvarchar(400), "
                 + "LOAIBV nvarchar(400), "
@@ -869,7 +945,7 @@ namespace PhanTichDuLieu
 
                 string tenTable = "bhyt7980a_dtdi";
                 string tenTableImport = "bhyt7980a_dtdi";
-                string chuoiColumn = "MA_TINH_KCB, TEN_TINH_KCB, TUYENCMKT, TEN_CSKCB, ID, KY_QT, COSOKCB_ID, MA_LK, MA_CSKCB, MA_BN, HO_TEN, NGAY_SINH, GIOI_TINH, DIA_CHI, MA_THE, MA_DKBD, MUC_HUONG, GT_THE_TU, GT_THE_DEN, MIEN_CUNG_CT, MA_BENH, TEN_BENH, MA_BENHKHAC, MA_LYDO_VVIEN, MA_NOI_CHUYEN, NGAY_VAO, NGAY_RA, SO_NGAY_DTRI, KET_QUA_DTRI, TINH_TRANG_RV, T_TONGCHI, T_XN, T_CDHA, T_THUOC, T_MAU, T_TTPT, T_VTYT, T_DVKT_TYLE, T_THUOC_TYLE, T_VTYT_TYLE, T_KHAM, T_GIUONG, T_VCHUYEN, T_BNTT, T_BHTT, T_BNCCT, T_NGOAIDS, T_NGUONKHAC, MA_KHOA, NAM_QT, QUY_QT, THANG_QT, MA_KHUVUC, MA_LOAI_KCB, LOAI_BN, LOAI_THE, TRONG_MAU, GIAM_DINH, T_XUATTOAN_TONGCHI, T_XUATTOAN, LYDO_XT, T_DATUYEN, T_VUOTTRAN, NGAY_NHAN, TENKIEUBV, MA_TAI_NAN, NGAY_TTOAN, MA_PTTT_QT, CAN_NANG";
+                string chuoiColumn = "MA_TINH_KCB, TEN_TINH_KCB, TUYENCMKT, TEN_CSKCB, ID, KY_QT, COSOKCB_ID, MA_LK, MA_CSKCB, MA_BN, HO_TEN, NGAY_SINH, GIOI_TINH, DIA_CHI, MA_THE, MA_TINH, MA_DKBD, MUC_HUONG, GT_THE_TU, GT_THE_DEN, MIEN_CUNG_CT, MA_BENH, TEN_BENH, MA_BENHKHAC, MA_LYDO_VVIEN, MA_NOI_CHUYEN, NGAY_VAO, NGAY_RA, SO_NGAY_DTRI, KET_QUA_DTRI, TINH_TRANG_RV, T_TONGCHI, T_XN, T_CDHA, T_THUOC, T_MAU, T_TTPT, T_VTYT, T_DVKT_TYLE, T_THUOC_TYLE, T_VTYT_TYLE, T_KHAM, T_GIUONG, T_VCHUYEN, T_BNTT, T_BHTT, T_BNCCT, T_NGOAIDS, T_NGUONKHAC, MA_KHOA, NAM_QT, QUY_QT, THANG_QT, MA_KHUVUC, MA_LOAI_KCB, LOAI_BN, LOAI_THE, TRONG_MAU, GIAM_DINH, T_XUATTOAN_TONGCHI, T_XUATTOAN, LYDO_XT, T_DATUYEN, T_VUOTTRAN, NGAY_NHAN, TENKIEUBV, MA_TAI_NAN, NGAY_TTOAN, MA_PTTT_QT, CAN_NANG";
                 SqlConnection conn = DBUtils.GetDBConnection();
 
                 conn.Open();
@@ -911,7 +987,7 @@ namespace PhanTichDuLieu
                     }
                 }).ContinueWith((t) =>
                 {
-                    MessageBox.Show("Ghi thành công bảng danh mục mẫu 7980a!");
+                    MessageBox.Show("Ghi thành công bảng danh mục mẫu bhyt7980a_dtdi!");
                 }, System.Threading.CancellationToken.None, TaskContinuationOptions.None, TaskScheduler.FromCurrentSynchronizationContext());
 
             }

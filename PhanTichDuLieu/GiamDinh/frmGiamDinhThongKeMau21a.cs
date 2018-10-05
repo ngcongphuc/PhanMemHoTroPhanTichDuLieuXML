@@ -81,6 +81,10 @@ namespace PhanTichDuLieu
             {
                 string query = "SELECT MaCSKCB as 'Mã CSKCB', TenCSKCB as 'Tên CSKCB' FROM DanhMucCoSoKCB";
                 DataTable dt = DBUtils.GetDBTable(query, conn);
+                DataRow row = dt.NewRow();
+                row["Mã CSKCB"] = "Tất cả CSKCB";
+                row["Tên CSKCB"] = "Tất cả CSKCB";
+                dt.Rows.Add(row);
 
                 this.lookUpEditCSKCB.Properties.DataSource = dt;
                 this.lookUpEditCSKCB.Properties.DisplayMember = "Tên CSKCB";
@@ -157,7 +161,22 @@ namespace PhanTichDuLieu
                     string _CauTruyVan = this.lookUpEditCauTruyVan.EditValue.ToString();
                     _CauTruyVan = _CauTruyVan.Replace("_ngaybatdau_", _ngayBatDau);
                     _CauTruyVan = _CauTruyVan.Replace("_ngayketthuc_", _ngayKetThuc);
-                    _CauTruyVan = _CauTruyVan.Replace("_MaCSKCB_", _MaCSKCB);
+                    if (this.lookUpEditCSKCB.Text == "Tất cả CSKCB")
+                    {
+                        _CauTruyVan = _CauTruyVan.Replace(@"ma_cskcb = '_MaCSKCB_'", "1=1");
+                        _CauTruyVan = _CauTruyVan.Replace(@"ma_cskcb='_MaCSKCB_'", "1=1");
+                        _CauTruyVan = _CauTruyVan.Replace(@"ma_cskcb= '_MaCSKCB_'", "1=1");
+                        _CauTruyVan = _CauTruyVan.Replace(@"ma_cskcb ='_MaCSKCB_'", "1=1");
+
+                        _CauTruyVan = _CauTruyVan.Replace(@"MA_CSKCB = '_MaCSKCB_'", "1=1");
+                        _CauTruyVan = _CauTruyVan.Replace(@"MA_CSKCB='_MaCSKCB_'", "1=1");
+                        _CauTruyVan = _CauTruyVan.Replace(@"MA_CSKCB= '_MaCSKCB_'", "1=1");
+                        _CauTruyVan = _CauTruyVan.Replace(@"MA_CSKCB ='_MaCSKCB_'", "1=1");
+                    }
+                    else
+                    {
+                        _CauTruyVan = _CauTruyVan.Replace("_MaCSKCB_", _MaCSKCB);
+                    }
 
                     SqlConnection conn = DBUtils.GetDBConnection();
                     conn.Open();
