@@ -36,7 +36,7 @@
             this.simpleButton6 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton5 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
+            this.btnImportDMThuocDonVi = new DevExpress.XtraEditors.SimpleButton();
             this.btnImportMau7980a_dtdi = new DevExpress.XtraEditors.SimpleButton();
             this.btnImportXML123_dtdi = new DevExpress.XtraEditors.SimpleButton();
             this.btnImportDMThuocVuotTuyen = new DevExpress.XtraEditors.SimpleButton();
@@ -88,7 +88,7 @@
             this.groupBox1.Controls.Add(this.simpleButton6);
             this.groupBox1.Controls.Add(this.simpleButton5);
             this.groupBox1.Controls.Add(this.simpleButton4);
-            this.groupBox1.Controls.Add(this.simpleButton3);
+            this.groupBox1.Controls.Add(this.btnImportDMThuocDonVi);
             this.groupBox1.Controls.Add(this.btnImportMau7980a_dtdi);
             this.groupBox1.Controls.Add(this.btnImportXML123_dtdi);
             this.groupBox1.Controls.Add(this.btnImportDMThuocVuotTuyen);
@@ -157,13 +157,15 @@
             this.simpleButton4.Size = new System.Drawing.Size(196, 49);
             this.simpleButton4.TabIndex = 12;
             // 
-            // simpleButton3
+            // btnImportDMThuocDonVi
             // 
-            this.simpleButton3.Location = new System.Drawing.Point(213, 138);
-            this.simpleButton3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.simpleButton3.Name = "simpleButton3";
-            this.simpleButton3.Size = new System.Drawing.Size(196, 49);
-            this.simpleButton3.TabIndex = 11;
+            this.btnImportDMThuocDonVi.Location = new System.Drawing.Point(213, 138);
+            this.btnImportDMThuocDonVi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnImportDMThuocDonVi.Name = "btnImportDMThuocDonVi";
+            this.btnImportDMThuocDonVi.Size = new System.Drawing.Size(196, 49);
+            this.btnImportDMThuocDonVi.TabIndex = 11;
+            this.btnImportDMThuocDonVi.Text = "Import DM Thuốc PB Đơn Vị";
+            this.btnImportDMThuocDonVi.Click += new System.EventHandler(this.btnImportDMThuocDonVi_Click);
             // 
             // btnImportMau7980a_dtdi
             // 
@@ -467,7 +469,7 @@
         private DevExpress.XtraEditors.SimpleButton simpleButton6;
         private DevExpress.XtraEditors.SimpleButton simpleButton5;
         private DevExpress.XtraEditors.SimpleButton simpleButton4;
-        private DevExpress.XtraEditors.SimpleButton simpleButton3;
+        private DevExpress.XtraEditors.SimpleButton btnImportDMThuocDonVi;
         private DevExpress.XtraEditors.SimpleButton btnImportMau7980a_dtdi;
         private DevExpress.XtraEditors.SimpleButton btnImportXML123_dtdi;
         private DevExpress.XtraEditors.SimpleButton simpleButton12;

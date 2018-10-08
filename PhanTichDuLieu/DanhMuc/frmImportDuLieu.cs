@@ -216,6 +216,34 @@ namespace PhanTichDuLieu
             }
 
         }
+
+        public void taoTable_dmThuocPhanBoTaiDonVi(string _tenTable)
+        {
+            string tenTable = _tenTable;
+
+            //string query = "CREATE TABLE " + tenTable + "(STT nvarchar(200),VIPHAMQTTD nvarchar(200),LY_DO_TC nvarchar(200),MA_BV nvarchar(200),MA_CHUAN nvarchar(200),HOAT_CHAT nvarchar(400),DUONG_DUNG nvarchar(200),TEN_THUOC_CHUAN nvarchar(400),TEN_BENH_VIEN nvarchar(400),MA_DD nvarchar(200),MA_DDGD nvarchar(200),HAM_LUONG nvarchar(200),DONG_GOI nvarchar(200),SO_DK nvarchar(200),NHA_SAN_XUAT nvarchar(400),NUOC_SX nvarchar(400),DVT nvarchar(400),SL nvarchar(400),DON_GIA_CHUAN nvarchar(400),DON_GIA_TT nvarchar(400),TEN_NHA_THAU nvarchar(400),QUYET_DINH nvarchar(400),CONG_BO nvarchar(400),MA_THUOC_BV nvarchar(400),LOAI_THUOC nvarchar(400),LOAI_THAU nvarchar(400),NHOM_THAU nvarchar(400),MA_CSKCB nvarchar(400),HIEU_LUC nvarchar(400),MO_TA nvarchar(400)); ";
+            string query = "CREATE TABLE " + tenTable + "(STT nvarchar(MAX),VIPHAMQTTD nvarchar(MAX),LY_DO_TC nvarchar(MAX),MA_BV nvarchar(MAX),MA_CHUAN nvarchar(MAX),HOAT_CHAT nvarchar(MAX),DUONG_DUNG nvarchar(MAX),TEN_THUOC_CHUAN nvarchar(MAX),TEN_BENH_VIEN nvarchar(MAX),MA_DD nvarchar(MAX),MA_DDGD nvarchar(MAX),HAM_LUONG nvarchar(MAX),DONG_GOI nvarchar(MAX),SO_DK nvarchar(MAX),NHA_SAN_XUAT nvarchar(MAX),NUOC_SX nvarchar(MAX),DVT nvarchar(MAX),SL nvarchar(MAX),DON_GIA_CHUAN nvarchar(MAX),DON_GIA_TT nvarchar(MAX),TEN_NHA_THAU nvarchar(MAX),QUYET_DINH nvarchar(MAX),CONG_BO nvarchar(MAX),MA_THUOC_BV nvarchar(MAX),LOAI_THUOC nvarchar(MAX),LOAI_THAU nvarchar(MAX),NHOM_THAU nvarchar(MAX),MA_CSKCB nvarchar(MAX),HIEU_LUC nvarchar(MAX),MO_TA nvarchar(MAX)); ";
+
+            SqlConnection conn = DBUtils.GetDBConnection();
+            conn.Open();
+            try
+            {
+                if (DBUtils.ExecuteNonQuery(query, conn) > 0)
+                {
+                    //MessageBox.Show("Tạo Table Thành Công");
+                }
+            }
+            catch (SqlException ex)
+            {
+                // MessageBox.Show("Error: " + ex.ToString());
+            }
+            finally
+            {
+                conn.Close();
+                conn.Dispose();
+            }
+
+        }
         public void taoTable_dmNgay(string _tenTable)
         {
             string tenTable = _tenTable;
@@ -1149,6 +1177,109 @@ namespace PhanTichDuLieu
             catch (Exception ex)
             {
                 MessageBox.Show(string.Format("Dữ liệu không đúng định dạng!"), "Không Thành Công", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
+
+        private void themVaoCSDLdmThuocPhanBoTaiDonVi_BULKCOPY()
+        {
+            string _FileName = _FileNames[0];
+
+            string tenTable = "dmthuocduocphanbotaidonvi";
+
+            SqlConnection conn = DBUtils.GetDBConnection();
+            conn.Open();
+            string query = "DBCC DROPCLEANBUFFERS";
+            DBUtils.ExecuteNonQuery(query, conn);
+            query = "DBCC FREEPROCCACHE";
+            DBUtils.ExecuteNonQuery(query, conn);
+
+            //Xóa table nếu tồn tại
+            query = "begin try drop table " + tenTable + " end try begin catch end catch";
+            DBUtils.ExecuteNonQuery(query, conn);
+
+            //Tạo table
+            taoTable_dmThuocPhanBoTaiDonVi(tenTable);
+
+
+            try
+            {
+                string constr = "";
+                if (System.IO.Path.GetExtension(_FileName).ToUpper() == ".XLS")
+                {
+                    constr = string.Format(@"Provider=Microsoft.Jet.OLEDB.4.0;Data Source={0};Extended Properties=""Excel 8.0;IMEX=1;HDR=YES;""", _FileName);
+
+                }
+                else
+                {
+                    constr = string.Format(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source={0};Extended Properties=""Excel 12.0;IMEX=1;HDR=YES;""", _FileName);
+                }
+                constr = string.Format(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source={0};Extended Properties=""Excel 12.0;IMEX=1;HDR=YES;""", _FileName);
+
+                OleDbConnection Econ = new OleDbConnection(constr);
+                //string Query = string.Format("Select [STT],[VIPHAMQTTD],[LY_DO_TC],[MA_BV],[MA_CHUAN],[HOAT_CHAT],[DUONG_DUNG],[TEN_THUOC_CHUAN],[TEN_BENH_VIEN],[MA_DD],[MA_DDGD],[HAM_LUONG],[DONG_GOI],[SO_DK],[NHA_SAN_XUAT],[NUOC_SX],[DVT],[SL],[DON_GIA_CHUAN],[DON_GIA_TT],[TEN_NHA_THAU],[QUYET_DINH],[CONG_BO],[MA_THUOC_BV] FROM [{0}]", "Sheet1$");
+                string Query = string.Format("Select [STT],[VIPHAMQTTD],[LY_DO_TC],[MA_BV],[MA_CHUAN],[HOAT_CHAT],[DUONG_DUNG],[TEN_THUOC_CHUAN],[TEN_BENH_VIEN],[MA_DD],[MA_DDGD],[HAM_LUONG],[DONG_GOI],[SO_DK],[NHA_SAN_XUAT],[NUOC_SX],[DVT],[SL],[DON_GIA_CHUAN],[DON_GIA_TT],[TEN_NHA_THAU],[QUYET_DINH],[CONG_BO],[MA_THUOC_BV],[LOAI_THUOC],[LOAI_THAU],[NHOM_THAU],[MA_CSKCB],[HIEU_LUC],[MO_TA] FROM [{0}]", "Sheet1$");
+                
+                OleDbCommand Ecom = new OleDbCommand(Query, Econ);
+                Econ.Open();
+
+                DataSet ds = new DataSet();
+                OleDbDataAdapter oda = new OleDbDataAdapter(Query, Econ);
+
+                oda.Fill(ds);
+
+                DataTable Exceldt = ds.Tables[0];
+
+                Exceldt.AcceptChanges();
+
+
+
+                SqlBulkCopy objbulk = new SqlBulkCopy(conn);
+                objbulk.DestinationTableName = tenTable;
+
+                //Mapping Table column    
+                objbulk.ColumnMappings.Add("[STT]", "STT");
+                objbulk.ColumnMappings.Add("[VIPHAMQTTD]", "VIPHAMQTTD");
+                objbulk.ColumnMappings.Add("[LY_DO_TC]", "LY_DO_TC");
+                objbulk.ColumnMappings.Add("[MA_BV]", "MA_BV");
+                objbulk.ColumnMappings.Add("[MA_CHUAN]", "MA_CHUAN");
+                objbulk.ColumnMappings.Add("[HOAT_CHAT]", "HOAT_CHAT");
+                objbulk.ColumnMappings.Add("[DUONG_DUNG]", "DUONG_DUNG");
+                objbulk.ColumnMappings.Add("[TEN_THUOC_CHUAN]", "TEN_THUOC_CHUAN");
+                objbulk.ColumnMappings.Add("[TEN_BENH_VIEN]", "TEN_BENH_VIEN");
+                objbulk.ColumnMappings.Add("[MA_DD]", "MA_DD");
+                objbulk.ColumnMappings.Add("[MA_DDGD]", "MA_DDGD");
+                objbulk.ColumnMappings.Add("[HAM_LUONG]", "HAM_LUONG");
+                objbulk.ColumnMappings.Add("[DONG_GOI]", "DONG_GOI");
+                objbulk.ColumnMappings.Add("[SO_DK]", "SO_DK");
+                objbulk.ColumnMappings.Add("[NHA_SAN_XUAT]", "NHA_SAN_XUAT");
+                objbulk.ColumnMappings.Add("[NUOC_SX]", "NUOC_SX");
+                objbulk.ColumnMappings.Add("[DVT]", "DVT");
+                objbulk.ColumnMappings.Add("[SL]", "SL");
+                objbulk.ColumnMappings.Add("[DON_GIA_CHUAN]", "DON_GIA_CHUAN");
+                objbulk.ColumnMappings.Add("[DON_GIA_TT]", "DON_GIA_TT");
+                objbulk.ColumnMappings.Add("[TEN_NHA_THAU]", "TEN_NHA_THAU");
+                objbulk.ColumnMappings.Add("[QUYET_DINH]", "QUYET_DINH");
+                objbulk.ColumnMappings.Add("[CONG_BO]", "CONG_BO");
+                objbulk.ColumnMappings.Add("[MA_THUOC_BV]", "MA_THUOC_BV");
+                objbulk.ColumnMappings.Add("[LOAI_THUOC]", "LOAI_THUOC");
+                objbulk.ColumnMappings.Add("[LOAI_THAU]", "LOAI_THAU");
+                objbulk.ColumnMappings.Add("[NHOM_THAU]", "NHOM_THAU");
+                objbulk.ColumnMappings.Add("[MA_CSKCB]", "MA_CSKCB");
+                objbulk.ColumnMappings.Add("[HIEU_LUC]", "HIEU_LUC");
+                objbulk.ColumnMappings.Add("[MO_TA]", "MO_TA");
+
+                objbulk.WriteToServer(Exceldt);
+                MessageBox.Show("Ghi thành công bảng danh mục thuốc tại đơn vị", "Thành Công", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                Econ.Close();
+                Econ.Dispose();
+                Ecom.Dispose();
+                oda.Dispose();
+                objbulk.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(string.Format("Dữ liệu không đúng định dạng!: " + ex.ToString()), "Không Thành Công", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
         #endregion
@@ -2388,8 +2519,25 @@ namespace PhanTichDuLieu
                 themVaoCSDLxmlMau7980a_KQT_BULKCOPY();
             }
         }
+
         #endregion
 
-        
+        private void btnImportDMThuocDonVi_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog dlg = new OpenFileDialog();
+            dlg.Filter = "Excel File (*.xls, *.xlsx)|*.xls; *.xlsx|All Files (*.*)|*.*";
+
+            if (dlg.ShowDialog(this) == DialogResult.OK)
+            {
+                _FileNames.Clear();
+                _SafeFileNames.Clear();
+                _FileNames.Add(dlg.FileName);
+                _SafeFileNames.Add(dlg.SafeFileName);
+            }
+
+            MessageBox.Show("Chờ thông báo quá trình ghi dữ liệu!");
+
+            themVaoCSDLdmThuocPhanBoTaiDonVi_BULKCOPY();
+        }
     }
 }
