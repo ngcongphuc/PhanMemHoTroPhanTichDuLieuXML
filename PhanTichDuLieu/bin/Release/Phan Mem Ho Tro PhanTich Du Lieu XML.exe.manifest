@@ -343,14 +343,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Phan Mem Ho Tro PhanTich Du Lieu XML.exe" size="5169504">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Phan Mem Ho Tro PhanTich Du Lieu XML.exe" size="5165920">
       <assemblyIdentity name="Phan Mem Ho Tro PhanTich Du Lieu XML" version="0.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>Bd+KoQaLtvjvNxv2F7slhFNB0Vs=</dsig:DigestValue>
+        <dsig:DigestValue>6KyM4Lqn4h1q92KSqgDKWJPJ2Og=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

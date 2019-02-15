@@ -30,6 +30,13 @@ namespace PhanTichDuLieu
             btnThietLapHeThong.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
 
             btnGiamDinhXetNghiem.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            btnGiamDinhChanDoanHinhAnh.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            btnGiamDinhNgayGiuong.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            btnGiamDinhQuyTac3.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            
+            btnDMQuyTac3.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            btnDMQuyTacSoSanh.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+
             btnThuocCoDieuKien.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             btnDVKTCoDieuKien.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
 

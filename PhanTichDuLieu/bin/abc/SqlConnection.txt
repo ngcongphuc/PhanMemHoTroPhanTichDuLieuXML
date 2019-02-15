@@ -1,0 +1,4 @@
+datasource = .
+database = vipprobmt
+username = sa
+password = sa

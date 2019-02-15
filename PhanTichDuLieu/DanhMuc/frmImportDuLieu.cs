@@ -67,7 +67,7 @@ namespace PhanTichDuLieu
              + "Ngay_KQ nvarchar(MAX),T_NguonKhac_DTL numeric(18,0),T_BNTT_DTL numeric(18,0),"
              + "T_BHTT_DTL numeric(18,0),T_BNCCT_DTL numeric(18,0),T_NgoaiDS_DTL numeric(18,0),Muc_Huong_DTL nvarchar(MAX),TT_Thau nvarchar(MAX),Pham_Vi nvarchar(MAX),Ma_Giuong nvarchar(MAX),"
              + "T_TranTT numeric(18,0),Goi_VTYT nvarchar(MAX),Ten_Vat_Tu nvarchar(MAX),"
-             + "Ten_Khoa nvarchar(MAX),Ma_Khoa nvarchar(MAX),Ma_Khoa_XML1 nvarchar(MAX),Ten_Khoa_XML1 nvarchar(MAX),Ten_Benh nvarchar(MAX),Ma_Bac_Si nvarchar(MAX),Ma_Tinh nvarchar(MAX),Ma_Tinh_The nvarchar(MAX), Ma_Cha nvarchar(200))";
+             + "Ten_Khoa nvarchar(MAX),Ma_Khoa nvarchar(MAX),Ma_Khoa_XML1 nvarchar(MAX),Ten_Khoa_XML1 nvarchar(MAX),Ten_Benh nvarchar(MAX),Ma_Bac_Si nvarchar(MAX),Ma_Tinh nvarchar(MAX),Ma_Tinh_The nvarchar(MAX), Ma_Cha nvarchar(200), LIEU_DUNG nvarchar(200), NGAYNHAN_CONG nvarchar(200))";
 
             SqlConnection conn = DBUtils.GetDBConnection();
             conn.Open();
@@ -105,7 +105,7 @@ namespace PhanTichDuLieu
              + "Ngay_KQ nvarchar(MAX),T_NguonKhac_DTL numeric(18,0),T_BNTT_DTL numeric(18,0),"
              + "T_BHTT_DTL numeric(18,0),T_BNCCT_DTL numeric(18,0),T_NgoaiDS_DTL numeric(18,0),Muc_Huong_DTL nvarchar(MAX),TT_Thau nvarchar(MAX),Pham_Vi nvarchar(MAX),Ma_Giuong nvarchar(MAX),"
              + "T_TranTT numeric(18,0),Goi_VTYT nvarchar(MAX),Ten_Vat_Tu nvarchar(MAX),"
-             + "Ten_Khoa nvarchar(MAX),Ma_Khoa nvarchar(MAX),Ma_Khoa_XML1 nvarchar(MAX),Ten_Khoa_XML1 nvarchar(MAX),Ten_Benh nvarchar(MAX),Ma_Bac_Si nvarchar(MAX),Ma_Tinh_KCB nvarchar(MAX), Ma_Tinh nvarchar(200))";
+             + "Ten_Khoa nvarchar(MAX),Ma_Khoa nvarchar(MAX),Ma_Khoa_XML1 nvarchar(MAX),Ten_Khoa_XML1 nvarchar(MAX),Ten_Benh nvarchar(MAX),Ma_Bac_Si nvarchar(MAX),Ma_Tinh_KCB nvarchar(MAX), Ma_Tinh nvarchar(200), LIEU_DUNG nvarchar(200), NGAYNHAN_CONG nvarchar(200))";
 
             SqlConnection conn = DBUtils.GetDBConnection();
             conn.Open();
@@ -813,7 +813,7 @@ namespace PhanTichDuLieu
                 string myconnection = "Data Source =" + _FileName;
                 SQLiteConnection mysqliteconn = new SQLiteConnection(myconnection);
                 SQLiteDataReader mysqlitereader;
-                SQLiteCommand SelectCommand = new SQLiteCommand("SELECT ID, XML1_ID, Ky_QT, CoSoKCB_ID, Ma_CSKCB, Ma_LK, MA_BN, Ho_Ten, Ngay_Sinh, Gioi_Tinh, Ma_The, Ma_DKBD, GT_The_Tu, GT_The_Den, Mien_Cung_CT, Ngay_Vao, Ngay_Ra, So_Ngay_DTri, Ma_LyDo_VVien, Ma_Benh, Ma_BenhKhac, Muc_Huong_XML1, T_TongChi, T_BNTT, T_BHTT, T_BNCCT, T_XN, T_CDHA, T_Thuoc, T_Mau, T_TTPT, T_VTYT, T_DVKT_TyLe, T_Thuoc_TyLe, T_VTYT_TyLe, T_Kham, T_Giuong, T_VChuyen, T_NgoaiDS, T_NguonKhac, Ma_Loai_KCB, ID_CP, Loai_CP, Ma_CP, Ma_Vat_Tu, Ma_Nhom, Ten_CP, DVT, So_Dang_Ky, Ham_Luong, Duong_Dung, So_Luong, So_Luong_BV, Don_Gia, Don_Gia_BV, Thanh_Tien, TyLe_TT, Ngay_YL, Ngay_KQ, T_NguonKhac_DTL, T_BNTT_DTL, T_BHTT_DTL, T_BNCCT_DTL, T_NgoaiDS_DTL, Muc_Huong_DTL, TT_Thau, Pham_Vi, Ma_Giuong, T_TranTT, Goi_VTYT, Ten_Vat_Tu, Ten_Khoa, Ma_Khoa, Ma_Khoa_XML1, Ten_Khoa_XML1, Ten_Benh, Ma_Bac_Si, Ma_Tinh, Ma_Tinh_The FROM xml123", mysqliteconn);
+                SQLiteCommand SelectCommand = new SQLiteCommand("SELECT ID, XML1_ID, Ky_QT, CoSoKCB_ID, Ma_CSKCB, Ma_LK, MA_BN, Ho_Ten, Ngay_Sinh, Gioi_Tinh, Ma_The, Ma_DKBD, GT_The_Tu, GT_The_Den, Mien_Cung_CT, Ngay_Vao, Ngay_Ra, So_Ngay_DTri, Ma_LyDo_VVien, Ma_Benh, Ma_BenhKhac, Muc_Huong_XML1, T_TongChi, T_BNTT, T_BHTT, T_BNCCT, T_XN, T_CDHA, T_Thuoc, T_Mau, T_TTPT, T_VTYT, T_DVKT_TyLe, T_Thuoc_TyLe, T_VTYT_TyLe, T_Kham, T_Giuong, T_VChuyen, T_NgoaiDS, T_NguonKhac, Ma_Loai_KCB, ID_CP, Loai_CP, Ma_CP, Ma_Vat_Tu, Ma_Nhom, Ten_CP, DVT, So_Dang_Ky, Ham_Luong, Duong_Dung, So_Luong, So_Luong_BV, Don_Gia, Don_Gia_BV, Thanh_Tien, TyLe_TT, Ngay_YL, Ngay_KQ, T_NguonKhac_DTL, T_BNTT_DTL, T_BHTT_DTL, T_BNCCT_DTL, T_NgoaiDS_DTL, Muc_Huong_DTL, TT_Thau, Pham_Vi, Ma_Giuong, T_TranTT, Goi_VTYT, Ten_Vat_Tu, Ten_Khoa, Ma_Khoa, Ma_Khoa_XML1, Ten_Khoa_XML1, Ten_Benh, Ma_Bac_Si, Ma_Tinh, Ma_Tinh_The, LIEU_DUNG, NGAYNHAN_CONG FROM xml123", mysqliteconn);
                 mysqliteconn.Open();
 
                 mysqlitereader = SelectCommand.ExecuteReader();
@@ -875,7 +875,7 @@ namespace PhanTichDuLieu
                 string _ngayKetThuc = this.tbThoiGianKetThuc.Text;
                 string _menhDeWhereKyQuyetToan = "KY_QT BETWEEN " + _ngayBatDau + " AND " + _ngayKetThuc;
 
-                SQLiteCommand SelectCommand = new SQLiteCommand("SELECT ID, XML1_ID, Ky_QT, CoSoKCB_ID, Ma_CSKCB, Ma_LK, MA_BN, Ho_Ten, Ngay_Sinh, Gioi_Tinh, Ma_The, Ma_DKBD, GT_The_Tu, GT_The_Den, Mien_Cung_CT, Ngay_Vao, Ngay_Ra, So_Ngay_DTri, Ma_LyDo_VVien, Ma_Benh, Ma_BenhKhac, Muc_Huong_XML1, T_TongChi, T_BNTT, T_BHTT, T_BNCCT, T_XN, T_CDHA, T_Thuoc, T_Mau, T_TTPT, T_VTYT, T_DVKT_TyLe, T_Thuoc_TyLe, T_VTYT_TyLe, T_Kham, T_Giuong, T_VChuyen, T_NgoaiDS, T_NguonKhac, Ma_Loai_KCB, ID_CP, Loai_CP, Ma_CP, Ma_Vat_Tu, Ma_Nhom, Ten_CP, DVT, So_Dang_Ky, Ham_Luong, Duong_Dung, So_Luong, So_Luong_BV, Don_Gia, Don_Gia_BV, Thanh_Tien, TyLe_TT, Ngay_YL, Ngay_KQ, T_NguonKhac_DTL, T_BNTT_DTL, T_BHTT_DTL, T_BNCCT_DTL, T_NgoaiDS_DTL, Muc_Huong_DTL, TT_Thau, Pham_Vi, Ma_Giuong, T_TranTT, Goi_VTYT, Ten_Vat_Tu, Ten_Khoa, Ma_Khoa, Ma_Khoa_XML1, Ten_Khoa_XML1, Ten_Benh, Ma_Bac_Si, Ma_Tinh, Ma_Tinh_The, Ma_Cha FROM xml123 WHERE " + _menhDeWhereKyQuyetToan, mysqliteconn);
+                SQLiteCommand SelectCommand = new SQLiteCommand("SELECT ID, XML1_ID, Ky_QT, CoSoKCB_ID, Ma_CSKCB, Ma_LK, MA_BN, Ho_Ten, Ngay_Sinh, Gioi_Tinh, Ma_The, Ma_DKBD, GT_The_Tu, GT_The_Den, Mien_Cung_CT, Ngay_Vao, Ngay_Ra, So_Ngay_DTri, Ma_LyDo_VVien, Ma_Benh, Ma_BenhKhac, Muc_Huong_XML1, T_TongChi, T_BNTT, T_BHTT, T_BNCCT, T_XN, T_CDHA, T_Thuoc, T_Mau, T_TTPT, T_VTYT, T_DVKT_TyLe, T_Thuoc_TyLe, T_VTYT_TyLe, T_Kham, T_Giuong, T_VChuyen, T_NgoaiDS, T_NguonKhac, Ma_Loai_KCB, ID_CP, Loai_CP, Ma_CP, Ma_Vat_Tu, Ma_Nhom, Ten_CP, DVT, So_Dang_Ky, Ham_Luong, Duong_Dung, So_Luong, So_Luong_BV, Don_Gia, Don_Gia_BV, Thanh_Tien, TyLe_TT, Ngay_YL, Ngay_KQ, T_NguonKhac_DTL, T_BNTT_DTL, T_BHTT_DTL, T_BNCCT_DTL, T_NgoaiDS_DTL, Muc_Huong_DTL, TT_Thau, Pham_Vi, Ma_Giuong, T_TranTT, Goi_VTYT, Ten_Vat_Tu, Ten_Khoa, Ma_Khoa, Ma_Khoa_XML1, Ten_Khoa_XML1, Ten_Benh, Ma_Bac_Si, Ma_Tinh, Ma_Tinh_The, Ma_Cha, LIEU_DUNG, NGAYNHAN_CONG FROM xml123 WHERE " + _menhDeWhereKyQuyetToan, mysqliteconn);
                 mysqliteconn.Open();
 
               

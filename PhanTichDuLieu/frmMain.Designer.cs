@@ -222,7 +222,6 @@
             // ribbonPageGroup4
             // 
             this.ribbonPageGroup4.ItemLinks.Add(this.btnGiamDinhQuyTac3);
-            this.ribbonPageGroup4.ItemLinks.Add(this.bntGiamDinhSoSanhQuy);
             this.ribbonPageGroup4.Name = "ribbonPageGroup4";
             // 
             // btnGiamDinhQuyTac3
@@ -673,6 +672,7 @@
             this.GroupThongKe.ItemLinks.Add(this.btnThongKe20a);
             this.GroupThongKe.ItemLinks.Add(this.btnThongKe21a);
             this.GroupThongKe.ItemLinks.Add(this.btnThongKe7980a);
+            this.GroupThongKe.ItemLinks.Add(this.bntGiamDinhSoSanhQuy);
             this.GroupThongKe.Name = "GroupThongKe";
             this.GroupThongKe.ShowCaptionButton = false;
             // 

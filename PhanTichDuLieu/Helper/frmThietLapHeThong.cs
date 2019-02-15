@@ -17,6 +17,8 @@ namespace PhanTichDuLieu
             InitializeComponent();
 
             this.KeyPreview = true;
+            this.tbTaiKhoanDangNhap.PasswordChar = '\u25CF';
+            this.tbMatKhauDangNhap.PasswordChar = '\u25CF';
 
             string _strFileName = Directory.GetCurrentDirectory() + @"\SqlConnection.txt";
 
@@ -110,6 +112,11 @@ namespace PhanTichDuLieu
                     string nameDatabase = myform._result;
                     this.initDatabase(nameDatabase);
                 }
+            }
+
+            if(e.KeyCode == Keys.Escape)
+            {
+                this.Close();
             }
         }
 
