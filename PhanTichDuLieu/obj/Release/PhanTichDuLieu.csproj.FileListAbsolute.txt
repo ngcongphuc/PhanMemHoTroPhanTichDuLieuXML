@@ -516,3 +516,8 @@ D:\Project C#\PhanMemHoTroPhanTichDuLieuXML\PhanTichDuLieu\obj\Release\Phan Mem 
 D:\Project C#\PhanMemHoTroPhanTichDuLieuXML\PhanTichDuLieu\obj\Release\Phan Mem Ho Tro PhanTich Du Lieu XML.exe
 D:\Project C#\PhanMemHoTroPhanTichDuLieuXML\PhanTichDuLieu\obj\Release\Phan Mem Ho Tro PhanTich Du Lieu XML.pdb
 D:\Project C#\PhanMemHoTroPhanTichDuLieuXML\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmChiaDuLieuSQLite_7980a.resources
+D:\Project C#\PhanMemHoTroPhanTichDuLieuXML\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmDMDieuKien3.resources
+D:\Project C#\PhanMemHoTroPhanTichDuLieuXML\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmGiamDinhDieuKien3.resources
+D:\Project C#\PhanMemHoTroPhanTichDuLieuXML\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmDMDieuKienSoSanh.resources
+D:\Project C#\PhanMemHoTroPhanTichDuLieuXML\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmGiamDinhSoSanh.resources
+D:\Project C#\PhanMemHoTroPhanTichDuLieuXML\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmGiamDinhSoSanhKyQT.resources

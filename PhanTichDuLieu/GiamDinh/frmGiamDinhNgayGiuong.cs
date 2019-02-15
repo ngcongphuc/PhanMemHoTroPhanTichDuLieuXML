@@ -155,9 +155,15 @@ namespace PhanTichDuLieu
 
         private void xuatExcel()
         {
+            string ten_cautruyvan = "";
+            if (this.lookUpEditCauTruyVan.EditValue.ToString() != "Tên Câu Truy Vấn")
+            {
+                ten_cautruyvan = this.lookUpEditCauTruyVan.Text.ToString();
+            }
+
             SaveFileDialog f = new SaveFileDialog();
             f.Filter = "Excel file (*.xlsx)|*.xlsx";
-            f.FileName = "GiamDinh_NgayGiuong_" + DateTime.Now.Second.ToString() + DateTime.Now.Minute.ToString() + DateTime.Now.Hour.ToString() + DateTime.Now.Day.ToString() + DateTime.Now.Month.ToString() + DateTime.Now.Year.ToString();
+            f.FileName = "GiamDinh_NgayGiuong_" + ten_cautruyvan + "_" + DateTime.Now.Second.ToString() + DateTime.Now.Minute.ToString() + DateTime.Now.Hour.ToString() + DateTime.Now.Day.ToString() + DateTime.Now.Month.ToString() + DateTime.Now.Year.ToString();
 
             if (f.ShowDialog() == DialogResult.OK)
             {

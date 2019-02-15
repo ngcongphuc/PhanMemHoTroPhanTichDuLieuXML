@@ -1,4 +1,0 @@
-datasource = .
-database = DB2018
-username = sa
-password = sa

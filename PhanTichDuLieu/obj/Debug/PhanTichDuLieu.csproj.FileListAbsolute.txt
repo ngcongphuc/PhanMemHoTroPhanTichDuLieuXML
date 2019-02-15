@@ -344,3 +344,5 @@ D:\Project C#\PhanMemHoTroPhanTichDuLieuXML\PhanTichDuLieu\obj\Debug\Phan Mem Ho
 D:\Project C#\PhanMemHoTroPhanTichDuLieuXML\PhanTichDuLieu\obj\Debug\Phan Mem Ho Tro PhanTich Du Lieu XML.pdb
 D:\Project C#\PhanMemHoTroPhanTichDuLieuXML\PhanTichDuLieu\obj\Debug\PhanTichDuLieu.frmChiaDuLieuSQLite_7980a.resources
 D:\Project C#\PhanMemHoTroPhanTichDuLieuXML\PhanTichDuLieu\obj\Debug\PhanTichDuLieu.csprojResolveAssemblyReference.cache
+D:\Project C#\PhanMemHoTroPhanTichDuLieuXML\PhanTichDuLieu\obj\Debug\PhanTichDuLieu.frmDMDieuKien3.resources
+D:\Project C#\PhanMemHoTroPhanTichDuLieuXML\PhanTichDuLieu\obj\Debug\PhanTichDuLieu.frmGiamDinhDieuKien3.resources

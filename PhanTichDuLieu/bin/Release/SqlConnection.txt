@@ -1,4 +1,4 @@
-datasource = .
-database = DB2018
+datasource = 
+database = vipprobmt
 username = sa
 password = sa

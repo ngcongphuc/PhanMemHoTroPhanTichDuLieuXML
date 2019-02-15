@@ -120,7 +120,27 @@ namespace PhanTichDuLieu
 
         public void initDatabase(string nameDatabase)
         {
-            SqlConnection conn = DBUtils.GetDBConnection();
+            SqlConnection conn_MAIN = DBUtils.GetDBConnection_Master("master");
+            try
+            {
+
+                conn_MAIN.Open();
+                
+                string str = "CREATE DATABASE " + nameDatabase;
+                DBUtils.ExecuteNonQuery(str, conn_MAIN);
+                MessageBox.Show("Đã tạo thành công Database tên: " + nameDatabase + ", đang tiến hành khởi tạo dữ liệu.", "Thông báo!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch
+            {
+                MessageBox.Show("Không khởi tạo được Database, vui lòng kiểm tra lại", "Thông báo!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+            }
+            finally
+            {
+                conn_MAIN.Close();
+            }
+
+            SqlConnection conn = DBUtils.GetDBConnection_Master(nameDatabase);
             try
             {
 
@@ -138,9 +158,41 @@ namespace PhanTichDuLieu
                         new SqlCommand(commandString, conn).ExecuteNonQuery();
                     }
                 }
-                MessageBox.Show("Khởi tạo xong CSDL: " + nameDatabase);
+                MessageBox.Show("Đã khởi tạo xong dữ liệu!", "Thông báo!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
                 this.tbTenCoSoDuLieu.Text = nameDatabase;
 
+            }
+            catch
+            {
+                MessageBox.Show("Không khởi tạo được Database, vui lòng kiểm tra lại", "Thông báo!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+            }
+            finally
+            {
+                conn.Close();
+            }
+        }
+
+        private void btnTesst_Click(object sender, EventArgs e)
+        {
+            SqlConnection conn = DBUtils.GetDBConnection_Master("master");
+            try
+            {
+
+                conn.Open();
+
+                string str = "CREATE DATABASE MyDatabase ON PRIMARY " +
+                        "(NAME = MyDatabase_Data, " +
+                        "FILENAME = 'D:\\MyDatabaseData.mdf', " +
+                        "SIZE = 2MB, MAXSIZE = 10MB, FILEGROWTH = 10%) " +
+                        "LOG ON (NAME = MyDatabase_Log, " +
+                        "FILENAME = 'D:\\MyDatabaseLog.ldf', " +
+                        "SIZE = 1MB, " +
+                        "MAXSIZE = 5MB, " +
+                        "FILEGROWTH = 10%)";
+                str = "CREATE DATABASE MyDatabase";
+                DBUtils.ExecuteNonQuery(str, conn);
             }
             catch
             {

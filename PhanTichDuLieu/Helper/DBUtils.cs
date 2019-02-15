@@ -28,6 +28,26 @@ namespace PhanTichDuLieu
 
             return DBSQLServerUtils.GetDBConnection(datasource, database, username, password);
         }
+        public static SqlConnection GetDBConnection_Master(string namedatabase)
+        {
+
+            string datasource = @"IT\SQLEXPRESS";
+            string database = "XML_Q1_2018";
+            string username = "sa";
+            string password = "sa";
+
+            string _strFileName = System.IO.Directory.GetCurrentDirectory() + @"\SqlConnection.txt";
+
+            string[] lines = System.IO.File.ReadAllLines(_strFileName);
+
+            datasource = lines[0].Split('=')[1].ToString().Trim();
+            database = namedatabase;
+            username = lines[2].Split('=')[1].ToString().Trim();
+            password = lines[3].Split('=')[1].ToString().Trim();
+
+
+            return DBSQLServerUtils.GetDBConnection(datasource, database, username, password);
+        }
 
         public static SqlConnection GetDBConnection(string datasource, string database, string username, string password)
         {

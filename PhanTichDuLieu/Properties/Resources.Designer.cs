@@ -63,6 +63,26 @@ namespace PhanTichDuLieu.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Banner_larger {
+            get {
+                object obj = ResourceManager.GetObject("Banner_larger", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Banner_normal {
+            get {
+                object obj = ResourceManager.GetObject("Banner_normal", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap BG_BHXH_2 {
             get {
                 object obj = ResourceManager.GetObject("BG_BHXH_2", resourceCulture);

@@ -41,6 +41,9 @@
             this.btnGiamDinhXetNghiem = new DevExpress.XtraBars.BarButtonItem();
             this.btnGiamDinhChanDoanHinhAnh = new DevExpress.XtraBars.BarButtonItem();
             this.btnGiamDinhNgayGiuong = new DevExpress.XtraBars.BarButtonItem();
+            this.ribbonPageGroup4 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.btnGiamDinhQuyTac3 = new DevExpress.XtraBars.BarButtonItem();
+            this.bntGiamDinhSoSanhQuy = new DevExpress.XtraBars.BarButtonItem();
             this.btnGiamDinhXetNghiem1 = new DevExpress.XtraBars.BarButtonItem();
             this.btnThuocCoDieuKienNangCao = new DevExpress.XtraBars.BarButtonItem();
             this.btnDVKTCoDieuKienNangCao = new DevExpress.XtraBars.BarButtonItem();
@@ -70,6 +73,8 @@
             this.barButtonItem11 = new DevExpress.XtraBars.BarButtonItem();
             this.btnThongKe14a = new DevExpress.XtraBars.BarButtonItem();
             this.btnChiaDuLieu_7980a = new DevExpress.XtraBars.BarButtonItem();
+            this.btnDMQuyTac3 = new DevExpress.XtraBars.BarButtonItem();
+            this.btnDMQuyTacSoSanh = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonPage2 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.GroupQuanTriHeThong = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.btnThietLapHeThong = new DevExpress.XtraBars.BarButtonItem();
@@ -81,6 +86,7 @@
             this.btnDMDieuKienThuocNangCao = new DevExpress.XtraBars.BarButtonItem();
             this.btnDMDieuKienDichVuNangCao = new DevExpress.XtraBars.BarButtonItem();
             this.GroupThietLapQuyTacMau = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.ribbonPageGroup3 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageDanhMuc = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.GroupThongKe = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.btnThongKe19a = new DevExpress.XtraBars.BarButtonItem();
@@ -123,9 +129,12 @@
             this.barButtonItem8 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem10 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem9 = new DevExpress.XtraBars.BarButtonItem();
+            this.pictureEditMain = new DevExpress.XtraEditors.PictureEdit();
+            this.timerMain = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemFontEdit1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabbedMdiManagerMain)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEditMain.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // ribbonPage4
@@ -151,7 +160,8 @@
             // ribbonPage3
             // 
             this.ribbonPage3.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
-            this.GroupGiamDinh});
+            this.GroupGiamDinh,
+            this.ribbonPageGroup4});
             this.ribbonPage3.Name = "ribbonPage3";
             this.ribbonPage3.Text = "Giám Định";
             // 
@@ -208,6 +218,30 @@
             this.btnGiamDinhNgayGiuong.Name = "btnGiamDinhNgayGiuong";
             this.btnGiamDinhNgayGiuong.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             this.btnGiamDinhNgayGiuong.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnGiamDinhNgayGiuong_ItemClick);
+            // 
+            // ribbonPageGroup4
+            // 
+            this.ribbonPageGroup4.ItemLinks.Add(this.btnGiamDinhQuyTac3);
+            this.ribbonPageGroup4.ItemLinks.Add(this.bntGiamDinhSoSanhQuy);
+            this.ribbonPageGroup4.Name = "ribbonPageGroup4";
+            // 
+            // btnGiamDinhQuyTac3
+            // 
+            this.btnGiamDinhQuyTac3.Caption = "Quy Tắc 3";
+            this.btnGiamDinhQuyTac3.Id = 31;
+            this.btnGiamDinhQuyTac3.ImageOptions.Image = global::PhanTichDuLieu.Properties.Resources.icons8_share_80;
+            this.btnGiamDinhQuyTac3.Name = "btnGiamDinhQuyTac3";
+            this.btnGiamDinhQuyTac3.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.btnGiamDinhQuyTac3.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnGiamDinhQuyTac3_ItemClick);
+            // 
+            // bntGiamDinhSoSanhQuy
+            // 
+            this.bntGiamDinhSoSanhQuy.Caption = "So Sánh";
+            this.bntGiamDinhSoSanhQuy.Id = 32;
+            this.bntGiamDinhSoSanhQuy.ImageOptions.Image = global::PhanTichDuLieu.Properties.Resources.icons8_share_80;
+            this.bntGiamDinhSoSanhQuy.Name = "bntGiamDinhSoSanhQuy";
+            this.bntGiamDinhSoSanhQuy.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.bntGiamDinhSoSanhQuy.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.bntGiamDinhSoSanhQuy_ItemClick);
             // 
             // btnGiamDinhXetNghiem1
             // 
@@ -287,10 +321,14 @@
             this.barButtonItem11,
             this.btnThongKe14a,
             this.btnGiamDinhXetNghiem,
-            this.btnChiaDuLieu_7980a});
+            this.btnChiaDuLieu_7980a,
+            this.btnDMQuyTac3,
+            this.btnGiamDinhQuyTac3,
+            this.bntGiamDinhSoSanhQuy,
+            this.btnDMQuyTacSoSanh});
             this.ribbonControl1.Location = new System.Drawing.Point(0, 0);
             this.ribbonControl1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.ribbonControl1.MaxItemId = 30;
+            this.ribbonControl1.MaxItemId = 34;
             this.ribbonControl1.Name = "ribbonControl1";
             this.ribbonControl1.OptionsAnimation.PageCategoryShowAnimation = DevExpress.Utils.DefaultBoolean.False;
             this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
@@ -310,7 +348,7 @@
             this.ribbonControl1.ShowPageHeadersInFormCaption = DevExpress.Utils.DefaultBoolean.False;
             this.ribbonControl1.ShowQatLocationSelector = false;
             this.ribbonControl1.ShowToolbarCustomizeItem = false;
-            this.ribbonControl1.Size = new System.Drawing.Size(1092, 179);
+            this.ribbonControl1.Size = new System.Drawing.Size(1341, 179);
             this.ribbonControl1.Toolbar.ShowCustomizeItem = false;
             // 
             // btnDMDieuKienXetNghiem
@@ -499,6 +537,24 @@
             this.btnChiaDuLieu_7980a.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             this.btnChiaDuLieu_7980a.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnChiaDuLieu_7980a_ItemClick);
             // 
+            // btnDMQuyTac3
+            // 
+            this.btnDMQuyTac3.Caption = "Quy tắc 3";
+            this.btnDMQuyTac3.Id = 30;
+            this.btnDMQuyTac3.ImageOptions.Image = global::PhanTichDuLieu.Properties.Resources.icons8_sugar_cubes_80;
+            this.btnDMQuyTac3.Name = "btnDMQuyTac3";
+            this.btnDMQuyTac3.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.btnDMQuyTac3.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnDMQuyTac3_ItemClick);
+            // 
+            // btnDMQuyTacSoSanh
+            // 
+            this.btnDMQuyTacSoSanh.Caption = "Quy tắc So Sanh";
+            this.btnDMQuyTacSoSanh.Id = 33;
+            this.btnDMQuyTacSoSanh.ImageOptions.Image = global::PhanTichDuLieu.Properties.Resources.icons8_sugar_cubes_80;
+            this.btnDMQuyTacSoSanh.Name = "btnDMQuyTacSoSanh";
+            this.btnDMQuyTacSoSanh.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
+            this.btnDMQuyTacSoSanh.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnDMQuyTacSoSanh_ItemClick);
+            // 
             // ribbonPage2
             // 
             this.ribbonPage2.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
@@ -523,7 +579,6 @@
             this.btnThietLapHeThong.Id = 35;
             this.btnThietLapHeThong.ImageOptions.Image = global::PhanTichDuLieu.Properties.Resources.icons8_share_80;
             this.btnThietLapHeThong.Name = "btnThietLapHeThong";
-            this.btnThietLapHeThong.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             this.btnThietLapHeThong.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnThietLapHeThong_ItemClick);
             // 
             // btnImportDuLieu
@@ -557,7 +612,8 @@
             // 
             this.ribbonPage6.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
             this.GroupThietLapQuyTac,
-            this.GroupThietLapQuyTacMau});
+            this.GroupThietLapQuyTacMau,
+            this.ribbonPageGroup3});
             this.ribbonPage6.Name = "ribbonPage6";
             this.ribbonPage6.Text = "Thiết Lập Quy Tắc";
             // 
@@ -590,12 +646,17 @@
             // 
             // GroupThietLapQuyTacMau
             // 
-            this.GroupThietLapQuyTacMau.ItemLinks.Add(this.btnDMMau14);
             this.GroupThietLapQuyTacMau.ItemLinks.Add(this.btnDMMau19);
             this.GroupThietLapQuyTacMau.ItemLinks.Add(this.btnDMMau20);
             this.GroupThietLapQuyTacMau.ItemLinks.Add(this.btnDMMau21);
             this.GroupThietLapQuyTacMau.ItemLinks.Add(this.btnDMMau7980);
             this.GroupThietLapQuyTacMau.Name = "GroupThietLapQuyTacMau";
+            // 
+            // ribbonPageGroup3
+            // 
+            this.ribbonPageGroup3.ItemLinks.Add(this.btnDMQuyTac3);
+            this.ribbonPageGroup3.ItemLinks.Add(this.btnDMQuyTacSoSanh);
+            this.ribbonPageGroup3.Name = "ribbonPageGroup3";
             // 
             // ribbonPageDanhMuc
             // 
@@ -860,7 +921,7 @@
             this.lbFooter.Appearance.Options.UseFont = true;
             this.lbFooter.Appearance.Options.UseForeColor = true;
             this.lbFooter.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.lbFooter.Location = new System.Drawing.Point(0, 427);
+            this.lbFooter.Location = new System.Drawing.Point(0, 626);
             this.lbFooter.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.lbFooter.Name = "lbFooter";
             this.lbFooter.Size = new System.Drawing.Size(94, 16);
@@ -904,6 +965,33 @@
             this.barButtonItem9.ImageOptions.Image = global::PhanTichDuLieu.Properties.Resources.icons8_pill_50;
             this.barButtonItem9.Name = "barButtonItem9";
             // 
+            // pictureEditMain
+            // 
+            this.pictureEditMain.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureEditMain.BackgroundImage = global::PhanTichDuLieu.Properties.Resources.Banner_larger;
+            this.pictureEditMain.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.pictureEditMain.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureEditMain.EditValue = global::PhanTichDuLieu.Properties.Resources.Banner_larger;
+            this.pictureEditMain.Location = new System.Drawing.Point(0, 186);
+            this.pictureEditMain.MenuManager = this.ribbonControl1;
+            this.pictureEditMain.Name = "pictureEditMain";
+            this.pictureEditMain.Properties.Appearance.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.pictureEditMain.Properties.Appearance.Options.UseBackColor = true;
+            this.pictureEditMain.Properties.ReadOnly = true;
+            this.pictureEditMain.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.pictureEditMain.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Squeeze;
+            this.pictureEditMain.Properties.ZoomAccelerationFactor = 1D;
+            this.pictureEditMain.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.pictureEditMain.Size = new System.Drawing.Size(1341, 438);
+            this.pictureEditMain.TabIndex = 4;
+            // 
+            // timerMain
+            // 
+            this.timerMain.Enabled = true;
+            this.timerMain.Tick += new System.EventHandler(this.timerMain_Tick);
+            // 
             // frmMain
             // 
             this.AllowFormGlass = DevExpress.Utils.DefaultBoolean.False;
@@ -913,7 +1001,8 @@
             this.Appearance.Options.UseForeColor = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1092, 443);
+            this.ClientSize = new System.Drawing.Size(1341, 642);
+            this.Controls.Add(this.pictureEditMain);
             this.Controls.Add(this.lbFooter);
             this.Controls.Add(this.ribbonControl1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -926,6 +1015,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemFontEdit1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabbedMdiManagerMain)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEditMain.Properties)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1025,6 +1115,14 @@
         private DevExpress.XtraBars.BarButtonItem btnGiamDinhXetNghiem;
         private DevExpress.XtraBars.BarButtonItem btnChiaDuLieu_7980a;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup2;
+        private DevExpress.XtraEditors.PictureEdit pictureEditMain;
+        private System.Windows.Forms.Timer timerMain;
+        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup4;
+        private DevExpress.XtraBars.BarButtonItem btnGiamDinhQuyTac3;
+        private DevExpress.XtraBars.BarButtonItem btnDMQuyTac3;
+        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup3;
+        private DevExpress.XtraBars.BarButtonItem bntGiamDinhSoSanhQuy;
+        private DevExpress.XtraBars.BarButtonItem btnDMQuyTacSoSanh;
     }
 }
 

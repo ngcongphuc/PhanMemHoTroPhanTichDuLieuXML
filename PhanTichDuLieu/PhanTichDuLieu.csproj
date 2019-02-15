@@ -174,6 +174,18 @@
     <Compile Include="DanhMuc\frmDMDieuKienChanDoanHinhAnhNangCao.Designer.cs">
       <DependentUpon>frmDMDieuKienChanDoanHinhAnhNangCao.cs</DependentUpon>
     </Compile>
+    <Compile Include="DanhMuc\frmDMDieuKien3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DanhMuc\frmDMDieuKien3.Designer.cs">
+      <DependentUpon>frmDMDieuKien3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DanhMuc\frmDMDieuKienSoSanh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DanhMuc\frmDMDieuKienSoSanh.Designer.cs">
+      <DependentUpon>frmDMDieuKienSoSanh.cs</DependentUpon>
+    </Compile>
     <Compile Include="DanhMuc\frmDMDieuKienNgayGiuongNangCao.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -270,6 +282,12 @@
     <Compile Include="DanhMuc\frmImportDuLieu.Designer.cs">
       <DependentUpon>frmImportDuLieu.cs</DependentUpon>
     </Compile>
+    <Compile Include="GiamDinh\frmGiamDinhDieuKien3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GiamDinh\frmGiamDinhDieuKien3.Designer.cs">
+      <DependentUpon>frmGiamDinhDieuKien3.cs</DependentUpon>
+    </Compile>
     <Compile Include="GiamDinh\frmGiamDinhChanDoanHinhAnh.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -281,6 +299,12 @@
     </Compile>
     <Compile Include="GiamDinh\frmGiamDinhNgayGiuong.Designer.cs">
       <DependentUpon>frmGiamDinhNgayGiuong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GiamDinh\frmGiamDinhSoSanhKyQT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GiamDinh\frmGiamDinhSoSanhKyQT.Designer.cs">
+      <DependentUpon>frmGiamDinhSoSanhKyQT.cs</DependentUpon>
     </Compile>
     <Compile Include="GiamDinh\frmGiamDinhXetNghiem.cs">
       <SubType>Form</SubType>
@@ -445,6 +469,12 @@
     <EmbeddedResource Include="DanhMuc\frmDMDieuKienChanDoanHinhAnhNangCao.resx">
       <DependentUpon>frmDMDieuKienChanDoanHinhAnhNangCao.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DanhMuc\frmDMDieuKien3.resx">
+      <DependentUpon>frmDMDieuKien3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DanhMuc\frmDMDieuKienSoSanh.resx">
+      <DependentUpon>frmDMDieuKienSoSanh.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DanhMuc\frmDMDieuKienNgayGiuongNangCao.resx">
       <DependentUpon>frmDMDieuKienNgayGiuongNangCao.cs</DependentUpon>
     </EmbeddedResource>
@@ -496,11 +526,17 @@
     <EmbeddedResource Include="DanhMuc\frmImportDuLieu.resx">
       <DependentUpon>frmImportDuLieu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GiamDinh\frmGiamDinhDieuKien3.resx">
+      <DependentUpon>frmGiamDinhDieuKien3.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GiamDinh\frmGiamDinhChanDoanHinhAnh.resx">
       <DependentUpon>frmGiamDinhChanDoanHinhAnh.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GiamDinh\frmGiamDinhNgayGiuong.resx">
       <DependentUpon>frmGiamDinhNgayGiuong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GiamDinh\frmGiamDinhSoSanhKyQT.resx">
+      <DependentUpon>frmGiamDinhSoSanhKyQT.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GiamDinh\frmGiamDinhXetNghiem.resx">
       <DependentUpon>frmGiamDinhXetNghiem.cs</DependentUpon>
@@ -700,6 +736,8 @@
     <None Include="Resources\exporttoxlsx_32x32.png" />
     <None Include="Resources\close_32x32.png" />
     <None Include="Resources\splitappointment_32x32.png" />
+    <None Include="Resources\Banner_normal.png" />
+    <None Include="Resources\Banner_larger.png" />
     <Content Include="SqlConnection.txt" />
     <None Include="Resources\BG_BHXH_2.png" />
   </ItemGroup>

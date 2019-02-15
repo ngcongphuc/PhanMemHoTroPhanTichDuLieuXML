@@ -614,7 +614,7 @@ namespace PhanTichDuLieu
                 + "MA_NHOM nvarchar(400), "
                 + "DON_VI_TINH nvarchar(400), "
                 + "SL_NGOAI_TRU numeric(18,0), "
-                + "SL_NOI_TRU nnumeric(18,0), "
+                + "SL_NOI_TRU numeric(18,0), "
                 + "SO_LUONG numeric(18,0), "
                 + "DON_GIA numeric(18,0), "
                 + "TYLE_TT nvarchar(400), "
@@ -813,7 +813,7 @@ namespace PhanTichDuLieu
                 string myconnection = "Data Source =" + _FileName;
                 SQLiteConnection mysqliteconn = new SQLiteConnection(myconnection);
                 SQLiteDataReader mysqlitereader;
-                SQLiteCommand SelectCommand = new SQLiteCommand("SELECT ID, XML1_ID, Ky_QT, CoSoKCB_ID, Ma_CSKCB, Ma_LK, MA_BN, Ho_Ten, Ngay_Sinh, Gioi_Tinh, Ma_The, Ma_DKBD, GT_The_Tu, GT_The_Den, Mien_Cung_CT, Ngay_Vao, Ngay_Ra, So_Ngay_DTri, Ma_LyDo_VVien, Ma_Benh, Ma_BenhKhac, Muc_Huong_XML1, T_TongChi, T_BNTT, T_BHTT, T_BNCCT, T_XN, T_CDHA, T_Thuoc, T_Mau, T_TTPT, T_VTYT, T_DVKT_TyLe, T_Thuoc_TyLe, T_VTYT_TyLe, T_Kham, T_Giuong, T_VChuyen, T_NgoaiDS, T_NguonKhac, Ma_Loai_KCB, ID_CP, Loai_CP, Ma_CP, Ma_Vat_Tu, Ma_Nhom, Ten_CP, DVT, So_Dang_Ky, Ham_Luong, Duong_Dung, So_Luong, So_Luong_BV, Don_Gia, Don_Gia_BV, Thanh_Tien, TyLe_TT, Ngay_YL, Ngay_KQ, T_NguonKhac_DTL, T_BNTT_DTL, T_BHTT_DTL, T_BNCCT_DTL, T_NgoaiDS_DTL, Muc_Huong_DTL, TT_Thau, Pham_Vi, Ma_Giuong, T_TranTT, Goi_VTYT, Ten_Vat_Tu, Ten_Khoa, Ma_Khoa, Ma_Khoa_XML1, Ten_Khoa_XML1, Ten_Benh, Ma_Bac_Si, Ma_Tinh, Ma_Tinh_The, Ma_Cha FROM xml123", mysqliteconn);
+                SQLiteCommand SelectCommand = new SQLiteCommand("SELECT ID, XML1_ID, Ky_QT, CoSoKCB_ID, Ma_CSKCB, Ma_LK, MA_BN, Ho_Ten, Ngay_Sinh, Gioi_Tinh, Ma_The, Ma_DKBD, GT_The_Tu, GT_The_Den, Mien_Cung_CT, Ngay_Vao, Ngay_Ra, So_Ngay_DTri, Ma_LyDo_VVien, Ma_Benh, Ma_BenhKhac, Muc_Huong_XML1, T_TongChi, T_BNTT, T_BHTT, T_BNCCT, T_XN, T_CDHA, T_Thuoc, T_Mau, T_TTPT, T_VTYT, T_DVKT_TyLe, T_Thuoc_TyLe, T_VTYT_TyLe, T_Kham, T_Giuong, T_VChuyen, T_NgoaiDS, T_NguonKhac, Ma_Loai_KCB, ID_CP, Loai_CP, Ma_CP, Ma_Vat_Tu, Ma_Nhom, Ten_CP, DVT, So_Dang_Ky, Ham_Luong, Duong_Dung, So_Luong, So_Luong_BV, Don_Gia, Don_Gia_BV, Thanh_Tien, TyLe_TT, Ngay_YL, Ngay_KQ, T_NguonKhac_DTL, T_BNTT_DTL, T_BHTT_DTL, T_BNCCT_DTL, T_NgoaiDS_DTL, Muc_Huong_DTL, TT_Thau, Pham_Vi, Ma_Giuong, T_TranTT, Goi_VTYT, Ten_Vat_Tu, Ten_Khoa, Ma_Khoa, Ma_Khoa_XML1, Ten_Khoa_XML1, Ten_Benh, Ma_Bac_Si, Ma_Tinh, Ma_Tinh_The FROM xml123", mysqliteconn);
                 mysqliteconn.Open();
 
                 mysqlitereader = SelectCommand.ExecuteReader();
@@ -973,7 +973,76 @@ namespace PhanTichDuLieu
 
                 string tenTable = "bhyt7980a_dtdi";
                 string tenTableImport = "bhyt7980a_dtdi";
-                string chuoiColumn = "MA_TINH_KCB, TEN_TINH_KCB, TUYENCMKT, TEN_CSKCB, ID, KY_QT, COSOKCB_ID, MA_LK, MA_CSKCB, MA_BN, HO_TEN, NGAY_SINH, GIOI_TINH, DIA_CHI, MA_THE, MA_TINH, MA_DKBD, MUC_HUONG, GT_THE_TU, GT_THE_DEN, MIEN_CUNG_CT, MA_BENH, TEN_BENH, MA_BENHKHAC, MA_LYDO_VVIEN, MA_NOI_CHUYEN, NGAY_VAO, NGAY_RA, SO_NGAY_DTRI, KET_QUA_DTRI, TINH_TRANG_RV, T_TONGCHI, T_XN, T_CDHA, T_THUOC, T_MAU, T_TTPT, T_VTYT, T_DVKT_TYLE, T_THUOC_TYLE, T_VTYT_TYLE, T_KHAM, T_GIUONG, T_VCHUYEN, T_BNTT, T_BHTT, T_BNCCT, T_NGOAIDS, T_NGUONKHAC, MA_KHOA, NAM_QT, QUY_QT, THANG_QT, MA_KHUVUC, MA_LOAI_KCB, LOAI_BN, LOAI_THE, TRONG_MAU, GIAM_DINH, T_XUATTOAN_TONGCHI, T_XUATTOAN, LYDO_XT, T_DATUYEN, T_VUOTTRAN, NGAY_NHAN, TENKIEUBV, MA_TAI_NAN, NGAY_TTOAN, MA_PTTT_QT, CAN_NANG";
+                string chuoiColumn = "MA_TINH_KCB, " +
+                    "TEN_TINH_KCB, " +
+                    "TUYENCMKT, " +
+                    "TEN_CSKCB, " +
+                    "ID, " +
+                    "KY_QT, " +
+                    "COSOKCB_ID, " +
+                    "MA_LK, " +
+                    "MA_CSKCB, " +
+                    "MA_BN, " +
+                    "HO_TEN, " +
+                    "NGAY_SINH, " +
+                    "GIOI_TINH, " +
+                    "DIA_CHI, " +
+                    "MA_THE, " +
+                    "MA_TINH, " +
+                    "MA_DKBD, " +
+                    "MUC_HUONG, " +
+                    "GT_THE_TU, " +
+                    "GT_THE_DEN, " +
+                    "MIEN_CUNG_CT, " +
+                    "MA_BENH, " +
+                    "TEN_BENH, " +
+                    "MA_BENHKHAC, " +
+                    "MA_LYDO_VVIEN, " +
+                    "MA_NOI_CHUYEN, " +
+                    "NGAY_VAO, " +
+                    "NGAY_RA, " +
+                    "SO_NGAY_DTRI, " +
+                    "KET_QUA_DTRI, " +
+                    "TINH_TRANG_RV, " +
+                    "T_TONGCHI, " +
+                    "T_XN, " +
+                    "T_CDHA, " +
+                    "T_THUOC, " +
+                    "T_MAU, " +
+                    "T_TTPT, " +
+                    "T_VTYT, " +
+                    "T_DVKT_TYLE, " +
+                    "T_THUOC_TYLE, " +
+                    "T_VTYT_TYLE, " +
+                    "T_KHAM, " +
+                    "T_GIUONG, " +
+                    "T_VCHUYEN, " +
+                    "T_BNTT, " +
+                    "T_BHTT, " +
+                    "T_BNCCT, " +
+                    "T_NGOAIDS, " +
+                    "T_NGUONKHAC, " +
+                    "MA_KHOA, " +
+                    "NAM_QT, " +
+                    "QUY_QT, " +
+                    "THANG_QT, " +
+                    "MA_KHUVUC, " +
+                    "MA_LOAI_KCB, " +
+                    "LOAI_BN, " +
+                    "LOAI_THE, " +
+                    "TRONG_MAU, " +
+                    "GIAM_DINH, " +
+                    "T_XUATTOAN_TONGCHI, " +
+                    "T_XUATTOAN, " +
+                    "LYDO_XT, " +
+                    "T_DATUYEN, " +
+                    "T_VUOTTRAN, " +
+                    "NGAY_NHAN, " +
+                    "TENKIEUBV, " +
+                    "MA_TAI_NAN, " +
+                    "NGAY_TTOAN, " +
+                    "MA_PTTT_QT, " +
+                    "CAN_NANG";
                 SqlConnection conn = DBUtils.GetDBConnection();
 
                 conn.Open();

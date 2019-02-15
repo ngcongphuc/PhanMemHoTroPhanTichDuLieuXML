@@ -87,6 +87,7 @@ namespace PhanTichDuLieu
                 List<string> _dm_schema_table = new List<string>();
 
 
+                //Lấy dmcskcb trong bảng
                 string query = "SELECT MaCSKCB, TenCSKCB FROM DanhMucCoSoKCB";
                 DataTable _dt_xml123 = DBUtils.GetDBTable(query, conn);
                 for (int i = 0; i < _dt_xml123.Rows.Count; i++)
@@ -94,7 +95,7 @@ namespace PhanTichDuLieu
                     _dm_xml123.Add("xml123_" + _dt_xml123.Rows[i][0].ToString());
                 }
 
-
+                //Lấy dmcskcb like xml123 trong csdl
                 query = "select table_name from information_schema.tables where table_name like '%xml123_%'";
                 DataTable _dt_schema_table = DBUtils.GetDBTable(query, conn);
                 for (int i = 0; i < _dt_schema_table.Rows.Count; i++)
@@ -128,6 +129,10 @@ namespace PhanTichDuLieu
                 conn.Close();
                 conn.Dispose();
             }
+            DataRow row = dt.NewRow();
+            row["Mã CSKCB"] = "Tất cả CSKCB";
+            row["Tên CSKCB"] = "Tất cả CSKCB";
+            dt.Rows.Add(row);
 
             DataColumn Col = dt.Columns.Add("STT");
 
@@ -156,9 +161,15 @@ namespace PhanTichDuLieu
 
         private void xuatExcel()
         {
+            string ten_cautruyvan = "";
+            if (this.lookUpEditCauTruyVan.EditValue.ToString() != "Tên Câu Truy Vấn")
+            {
+                ten_cautruyvan = this.lookUpEditCauTruyVan.Text.ToString();
+            }
+
             SaveFileDialog f = new SaveFileDialog();
             f.Filter = "Excel file (*.xlsx)|*.xlsx";
-            f.FileName = "DichVu_NangCao_" + DateTime.Now.Second.ToString() + DateTime.Now.Minute.ToString() + DateTime.Now.Hour.ToString() + DateTime.Now.Day.ToString() + DateTime.Now.Month.ToString() + DateTime.Now.Year.ToString();
+            f.FileName = "DichVu_NangCao_" + ten_cautruyvan + "_" + DateTime.Now.Second.ToString() + DateTime.Now.Minute.ToString() + DateTime.Now.Hour.ToString() + DateTime.Now.Day.ToString() + DateTime.Now.Month.ToString() + DateTime.Now.Year.ToString();
 
             if (f.ShowDialog() == DialogResult.OK)
             {
@@ -195,26 +206,47 @@ namespace PhanTichDuLieu
         {
             if (this.lookUpEditCSKCB.EditValue.ToString() != "Tên CSKCB")
             {
-
-                string _MaCSKCB = this.lookUpEditCSKCB.EditValue.ToString();
-                _MaCSKCB = "xml123_" + _MaCSKCB;
-                if (this.lookUpEditCauTruyVan.EditValue.ToString() != "Tên Câu Truy Vấn")
+                if (this.lookUpEditCSKCB.Text == "Tất cả CSKCB")
                 {
-                    //Code
-                    string _ngayBatDau = this.tbThoiGianBatDau.Text;
-                    string _ngayKetThuc = this.tbThoiGianKetThuc.Text;
-                    string _CauTruyVan = this.lookUpEditCauTruyVan.EditValue.ToString();
-                    _CauTruyVan = _CauTruyVan.Replace("_ngaybatdau_", _ngayBatDau);
-                    _CauTruyVan = _CauTruyVan.Replace("_ngayketthuc_", _ngayKetThuc);
-                    _CauTruyVan = _CauTruyVan.Replace("xml123", _MaCSKCB);
+                    string query = "select table_name from information_schema.tables where table_name like '%xml123_%' and table_name not like 'xml123_dtdi'";
+                   
 
                     SqlConnection conn = DBUtils.GetDBConnection();
                     conn.Open();
                     try
                     {
-                        DataTable dt = DBUtils.GetDBTable(_CauTruyVan, conn);
-                        this.gridControlKetQua.DataSource = dt;
+                        DataTable _dt_schema_table = DBUtils.GetDBTable(query, conn);
 
+                        if (_dt_schema_table.Rows.Count > 0)
+                        {
+                            string temp = "";
+                            string temp_cautruyvan = "";
+                            if (this.lookUpEditCauTruyVan.EditValue.ToString() != "Tên Câu Truy Vấn")
+                            {
+                                //Code
+                                string _ngayBatDau = this.tbThoiGianBatDau.Text;
+                                string _ngayKetThuc = this.tbThoiGianKetThuc.Text;
+                                string _CauTruyVan = this.lookUpEditCauTruyVan.EditValue.ToString();
+                                _CauTruyVan = _CauTruyVan.Replace("_ngaybatdau_", _ngayBatDau);
+                                _CauTruyVan = _CauTruyVan.Replace("_ngayketthuc_", _ngayKetThuc);
+                                temp_cautruyvan = _CauTruyVan;
+                                temp = temp_cautruyvan.Replace("xml123", _dt_schema_table.Rows[0][0].ToString());
+
+                                if (_dt_schema_table.Rows.Count > 1)
+                                {
+                                    for (int i = 1; i < _dt_schema_table.Rows.Count; i++)
+                                    {
+                                        temp_cautruyvan = _CauTruyVan;
+                                        string _MaCSKCB = _dt_schema_table.Rows[i][0].ToString();
+                                        temp = temp + " UNION ALL " + temp_cautruyvan.Replace("xml123", _MaCSKCB);
+                                    }
+                                }
+                                //MessageBox.Show(temp);
+
+                                DataTable dt = DBUtils.GetDBTable(temp, conn);
+                                this.gridControlKetQua.DataSource = dt;
+                            }
+                        }
                     }
                     catch (SqlException ex)
                     {
@@ -226,12 +258,47 @@ namespace PhanTichDuLieu
                         conn.Dispose();
                     }
 
-
                 }
                 else
                 {
-                    MessageBox.Show("Chưa chọn câu truy vấn");
+                    string _MaCSKCB = this.lookUpEditCSKCB.EditValue.ToString();
+                    _MaCSKCB = "xml123_" + _MaCSKCB;
+                    if (this.lookUpEditCauTruyVan.EditValue.ToString() != "Tên Câu Truy Vấn")
+                    {
+                        //Code
+                        string _ngayBatDau = this.tbThoiGianBatDau.Text;
+                        string _ngayKetThuc = this.tbThoiGianKetThuc.Text;
+                        string _CauTruyVan = this.lookUpEditCauTruyVan.EditValue.ToString();
+                        _CauTruyVan = _CauTruyVan.Replace("_ngaybatdau_", _ngayBatDau);
+                        _CauTruyVan = _CauTruyVan.Replace("_ngayketthuc_", _ngayKetThuc);
+                        _CauTruyVan = _CauTruyVan.Replace("xml123", _MaCSKCB);
+
+                        SqlConnection conn = DBUtils.GetDBConnection();
+                        conn.Open();
+                        try
+                        {
+                            DataTable dt = DBUtils.GetDBTable(_CauTruyVan, conn);
+                            this.gridControlKetQua.DataSource = dt;
+
+                        }
+                        catch (SqlException ex)
+                        {
+                            MessageBox.Show("Error: " + ex.ToString());
+                        }
+                        finally
+                        {
+                            conn.Close();
+                            conn.Dispose();
+                        }
+
+
+                    }
+                    else
+                    {
+                        MessageBox.Show("Chưa chọn câu truy vấn");
+                    }
                 }
+              
             }
             else
             {

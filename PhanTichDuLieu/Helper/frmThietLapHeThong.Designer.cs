@@ -49,7 +49,7 @@
             this.label3.ForeColor = System.Drawing.Color.Navy;
             this.label3.Location = new System.Drawing.Point(12, 43);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(123, 18);
+            this.label3.Size = new System.Drawing.Size(158, 23);
             this.label3.TabIndex = 3;
             this.label3.Text = "Tên SQL Server:";
             // 
@@ -60,7 +60,7 @@
             this.label1.ForeColor = System.Drawing.Color.Navy;
             this.label1.Location = new System.Drawing.Point(12, 81);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(152, 18);
+            this.label1.Size = new System.Drawing.Size(189, 23);
             this.label1.TabIndex = 4;
             this.label1.Text = "Tên Cơ Sơ Dữ Liệu:";
             // 
@@ -71,7 +71,7 @@
             this.label2.ForeColor = System.Drawing.Color.Navy;
             this.label2.Location = new System.Drawing.Point(12, 118);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(166, 18);
+            this.label2.Size = new System.Drawing.Size(207, 23);
             this.label2.TabIndex = 5;
             this.label2.Text = "Tài Khoản Đăng Nhập:";
             // 
@@ -82,7 +82,7 @@
             this.label4.ForeColor = System.Drawing.Color.Navy;
             this.label4.Location = new System.Drawing.Point(12, 156);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(161, 18);
+            this.label4.Size = new System.Drawing.Size(203, 23);
             this.label4.TabIndex = 6;
             this.label4.Text = "Mật Khẩu Đăng Nhập:";
             // 
@@ -91,7 +91,7 @@
             this.tbTenSQLServer.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbTenSQLServer.Location = new System.Drawing.Point(184, 40);
             this.tbTenSQLServer.Name = "tbTenSQLServer";
-            this.tbTenSQLServer.Size = new System.Drawing.Size(509, 26);
+            this.tbTenSQLServer.Size = new System.Drawing.Size(509, 30);
             this.tbTenSQLServer.TabIndex = 7;
             // 
             // tbTenCoSoDuLieu
@@ -99,7 +99,7 @@
             this.tbTenCoSoDuLieu.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbTenCoSoDuLieu.Location = new System.Drawing.Point(184, 78);
             this.tbTenCoSoDuLieu.Name = "tbTenCoSoDuLieu";
-            this.tbTenCoSoDuLieu.Size = new System.Drawing.Size(509, 26);
+            this.tbTenCoSoDuLieu.Size = new System.Drawing.Size(509, 30);
             this.tbTenCoSoDuLieu.TabIndex = 8;
             // 
             // tbTaiKhoanDangNhap
@@ -107,7 +107,7 @@
             this.tbTaiKhoanDangNhap.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbTaiKhoanDangNhap.Location = new System.Drawing.Point(184, 115);
             this.tbTaiKhoanDangNhap.Name = "tbTaiKhoanDangNhap";
-            this.tbTaiKhoanDangNhap.Size = new System.Drawing.Size(509, 26);
+            this.tbTaiKhoanDangNhap.Size = new System.Drawing.Size(509, 30);
             this.tbTaiKhoanDangNhap.TabIndex = 9;
             // 
             // tbMatKhauDangNhap
@@ -115,7 +115,7 @@
             this.tbMatKhauDangNhap.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbMatKhauDangNhap.Location = new System.Drawing.Point(184, 153);
             this.tbMatKhauDangNhap.Name = "tbMatKhauDangNhap";
-            this.tbMatKhauDangNhap.Size = new System.Drawing.Size(509, 26);
+            this.tbMatKhauDangNhap.Size = new System.Drawing.Size(509, 30);
             this.tbMatKhauDangNhap.TabIndex = 10;
             // 
             // btnKiemTraKetNoi
@@ -158,7 +158,7 @@
             this.label5.ForeColor = System.Drawing.Color.Red;
             this.label5.Location = new System.Drawing.Point(340, 310);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(353, 18);
+            this.label5.Size = new System.Drawing.Size(453, 23);
             this.label5.TabIndex = 14;
             this.label5.Text = "Phím tắt: Ctrl + Shift + R: Tạo Cơ Sở Dữ Liệu mới";
             // 
@@ -167,7 +167,7 @@
             this.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(146)))), ((int)(((byte)(217)))));
             this.Appearance.Options.UseBackColor = true;
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.ClientSize = new System.Drawing.Size(705, 337);
+            this.ClientSize = new System.Drawing.Size(708, 359);
             this.ControlBox = false;
             this.Controls.Add(this.label5);
             this.Controls.Add(this.btnThoat);
