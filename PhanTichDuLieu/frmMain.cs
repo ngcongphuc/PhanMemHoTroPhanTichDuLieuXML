@@ -18,6 +18,21 @@ namespace PhanTichDuLieu
 
             //this.pictureEditMain.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
             this.pictureEditMain.Properties.ReadOnly = true;
+
+            /*
+            this.ribbonPageThietLapQuyTac.Visible = false;
+            this.ribbonPageCongCu.Visible = false;
+            
+            this.btnDMCSKCB.Enabled = false;
+            this.btnImportDuLieu.Enabled = false;
+            this.btnDMXML123.Enabled = false;
+            */
+            /*
+            this.btnNoiDuLieu.Enabled = false;
+            this.btnNoiDuLieuNangCao.Enabled = false;
+            this.btnNoiDuLieu_KQT.Enabled = false;
+            this.btnChiaDuLieu.*/
+
         }
 
         private void btnThoat_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
@@ -493,6 +508,15 @@ namespace PhanTichDuLieu
             this.pictureEditMain.Hide();
             frmDMDieuKienSoSanh f = new frmDMDieuKienSoSanh();
             f.Text = "Danh mục So Sánh";
+            f.MdiParent = this;
+            f.Show();
+        }
+
+        private void btnNoiDuLieuNangCao_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            this.pictureEditMain.Hide();
+            frmNoiDuLieuSQLite_NangCao f = new frmNoiDuLieuSQLite_NangCao();
+            f.Text = "Nối dữ liệu SQLite Nâng Cao";
             f.MdiParent = this;
             f.Show();
         }

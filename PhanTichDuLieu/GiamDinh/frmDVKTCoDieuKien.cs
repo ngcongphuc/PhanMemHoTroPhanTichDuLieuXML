@@ -266,8 +266,7 @@ namespace PhanTichDuLieu
                         Form frm = new Form();
                         frm.Controls.Add(gridcontrolTemps[soluongGridControl]);
                         gridcontrolTemps[soluongGridControl].ForceInitialize();
-
-
+                        
 
                         linkTemps[soluongGridControl] = new PrintableComponentLink(new PrintingSystem());
                         linkTemps[soluongGridControl].Component = gridcontrolTemps[soluongGridControl];
@@ -361,19 +360,15 @@ namespace PhanTichDuLieu
                             frm.Controls.Add(gridcontrolTemps[i_sl]);
                             gridcontrolTemps[i_sl].ForceInitialize();
 
-
-
                             linkTemps[i_sl] = new PrintableComponentLink(new PrintingSystem());
                             linkTemps[i_sl].Component = gridcontrolTemps[i_sl];
-
-
+                            
                             //Bảng đổi tên
                             soLuongSheets[soLuongSheet] = tenDieuKiens[i_sl];
                             soLuongMaDieuKienSheets[soLuongSheet] = maDieuKiens[i_sl];
                             soLuongSheet++;
                             linkTemps[i_sl].CreateMarginalHeaderArea += new CreateAreaEventHandler(Link_CreateMarginalHeaderArea);
-
-
+                        
                             complinkMain.Links.Add(linkTemps[i_sl]);
                         }
 

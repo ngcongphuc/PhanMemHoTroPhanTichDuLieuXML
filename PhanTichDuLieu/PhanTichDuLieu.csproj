@@ -156,6 +156,12 @@
     <Compile Include="CongCu\frmChiaDuLieuSQLite.Designer.cs">
       <DependentUpon>frmChiaDuLieuSQLite.cs</DependentUpon>
     </Compile>
+    <Compile Include="CongCu\frmNoiDuLieuSQLite_NangCao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CongCu\frmNoiDuLieuSQLite_NangCao.Designer.cs">
+      <DependentUpon>frmNoiDuLieuSQLite_NangCao.cs</DependentUpon>
+    </Compile>
     <Compile Include="CongCu\frmNoiDuLieuSQLite_KQT.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -459,6 +465,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CongCu\frmChiaDuLieuSQLite.resx">
       <DependentUpon>frmChiaDuLieuSQLite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CongCu\frmNoiDuLieuSQLite_NangCao.resx">
+      <DependentUpon>frmNoiDuLieuSQLite_NangCao.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CongCu\frmNoiDuLieuSQLite_KQT.resx">
       <DependentUpon>frmNoiDuLieuSQLite_KQT.cs</DependentUpon>

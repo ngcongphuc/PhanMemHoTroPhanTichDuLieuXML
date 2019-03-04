@@ -6,14 +6,27 @@ using DevExpress.XtraPrintingLinks;
 using DevExpress.XtraPrinting;
 using System.Drawing;
 using System.Collections.Generic;
+using DevExpress.XtraGrid;
 
 namespace PhanTichDuLieu
 {
     public partial class frmDVKTCoDieuKienNangCao : DevExpress.XtraEditors.XtraForm
     {
+        public CompositeLink complinkMain;
+        public String[] maDieuKiens;
+        public String[] tenDieuKiens;
+        public String[] DieuKiens;
+        public String[] soLuongSheets;
+        public String[] soLuongMaDieuKienSheets;
+        public int soluongLookupEdit;
+        public DataTable dtBangDieuKien;
+        public string tenCSKCB;
         public frmDVKTCoDieuKienNangCao()
         {
+
             InitializeComponent();
+            soLuongSheets = new string[200];
+            soLuongMaDieuKienSheets = new string[200];
 
         }
         private void FormDVKTCoDieuKien_Load(object sender, EventArgs e)
@@ -44,6 +57,14 @@ namespace PhanTichDuLieu
             {
                 string query = "SELECT MaDieuKien as 'Mã Câu Truy Vấn', TenDieuKien as 'Tên Câu Truy Vấn', DieuKien as 'Câu Truy Vấn SQL' FROM DanhMucDieuKienDichVuNangCao";
                 DataTable dt = DBUtils.GetDBTable(query, conn);
+                dtBangDieuKien = dt;
+                soluongLookupEdit = dt.Rows.Count;
+                DataRow row = dt.NewRow();
+                row["Mã Câu Truy Vấn"] = "Tất cả điều kiện";
+                row["Tên Câu Truy Vấn"] = "Tất cả điều kiện";
+                row["Câu Truy Vấn SQL"] = "Tất cả điều kiện";
+
+                dt.Rows.Add(row);
 
                 this.lookUpEditCauTruyVan.Properties.DataSource = dt;
                 this.lookUpEditCauTruyVan.Properties.DisplayMember = "Tên Câu Truy Vấn";
@@ -129,6 +150,7 @@ namespace PhanTichDuLieu
                 conn.Close();
                 conn.Dispose();
             }
+
             DataRow row = dt.NewRow();
             row["Mã CSKCB"] = "Tất cả CSKCB";
             row["Tên CSKCB"] = "Tất cả CSKCB";
@@ -154,9 +176,53 @@ namespace PhanTichDuLieu
         #endregion
 
         #region Các Hàm Về Xuất Excel
+        /*
         private void Link_CreateMarginalHeaderArea(object sender, CreateAreaEventArgs e)
         {
             TextBrick brick = e.Graph.DrawString("FILE EXCEL", System.Drawing.Color.DarkBlue, new RectangleF(0, 0, 500, 1200), BorderSide.None);
+        }*/
+        
+        public int flag_i = 0;
+        private void Link_CreateMarginalHeaderArea(object sender, CreateAreaEventArgs e)
+        {
+                TextBrick brick = e.Graph.DrawString(soLuongSheets[flag_i].ToUpper(), System.Drawing.Color.DarkBlue, new RectangleF(0, 0, 500, 2000), BorderSide.All);
+                //TextBrick brick = e.Graph.DrawString(soLuongSheets[flag_i - 1], System.Drawing.Color.DarkBlue, new RectangleF(0, 0, 500, 1200), BorderSide.None);
+                flag_i++;
+        }
+
+        private void xuatExcel_ToanBoCauLenh()
+        {
+           
+
+            SaveFileDialog f = new SaveFileDialog();
+            f.Filter = "Excel file (*.xlsx)|*.xlsx";
+            f.FileName = tenCSKCB + "_DichVuKyThuat_" + DateTime.Now.Second.ToString() + DateTime.Now.Minute.ToString() + DateTime.Now.Hour.ToString() + DateTime.Now.Day.ToString() + DateTime.Now.Month.ToString() + DateTime.Now.Year.ToString();
+
+            if (f.ShowDialog() == DialogResult.OK)
+            {
+                //Rename Sheet
+                complinkMain.PrintingSystem.XlSheetCreated += PrintingSystem_XlSheetCreated;
+                complinkMain.CreatePageForEachLink();
+                XlsxExportOptions options = new XlsxExportOptions();
+                options.ExportMode = XlsxExportMode.SingleFilePageByPage;
+                complinkMain.ExportToXlsx(f.FileName, options);
+                flag_i = 0;
+
+                MessageBox.Show("Xuất Excel Thành Công!");
+            }
+        }
+        
+        private void PrintingSystem_XlSheetCreated(object sender, XlSheetCreatedEventArgs e)
+        {
+            int caseSwitch = e.Index;
+            e.SheetName = soLuongMaDieuKienSheets[caseSwitch].ToString();
+
+        }
+
+
+        private void Link_CreateMarginalHeaderArea_1(object sender, CreateAreaEventArgs e)
+        {
+            TextBrick brick = e.Graph.DrawString("...", System.Drawing.Color.DarkBlue, new RectangleF(0, 0, 500, 1200), BorderSide.None);
         }
 
         private void xuatExcel()
@@ -169,19 +235,20 @@ namespace PhanTichDuLieu
 
             SaveFileDialog f = new SaveFileDialog();
             f.Filter = "Excel file (*.xlsx)|*.xlsx";
-            f.FileName = "DichVu_NangCao_" + ten_cautruyvan + "_" + DateTime.Now.Second.ToString() + DateTime.Now.Minute.ToString() + DateTime.Now.Hour.ToString() + DateTime.Now.Day.ToString() + DateTime.Now.Month.ToString() + DateTime.Now.Year.ToString();
+            f.FileName = tenCSKCB + "_DichVuKyThuat_" + ten_cautruyvan + "_" + DateTime.Now.Second.ToString() + DateTime.Now.Minute.ToString() + DateTime.Now.Hour.ToString() + DateTime.Now.Day.ToString() + DateTime.Now.Month.ToString() + DateTime.Now.Year.ToString();
+
 
             if (f.ShowDialog() == DialogResult.OK)
             {
                 CompositeLink complink = new CompositeLink(new PrintingSystem());
                 PrintableComponentLink link = new PrintableComponentLink(new PrintingSystem());
                 link.Component = this.gridControlKetQua;
-                link.CreateMarginalHeaderArea += new CreateAreaEventHandler(Link_CreateMarginalHeaderArea);
+                link.CreateMarginalHeaderArea += new CreateAreaEventHandler(Link_CreateMarginalHeaderArea_1);
                 complink.Links.Add(link);
 
 
                 //Rename Sheet
-                complink.PrintingSystem.XlSheetCreated += PrintingSystem_XlSheetCreated;
+                complink.PrintingSystem.XlSheetCreated += PrintingSystem_XlSheetCreated_1;
                 complink.CreatePageForEachLink();
                 XlsxExportOptions options = new XlsxExportOptions();
                 options.ExportMode = XlsxExportMode.SingleFilePageByPage;
@@ -191,7 +258,7 @@ namespace PhanTichDuLieu
             }
         }
 
-        private void PrintingSystem_XlSheetCreated(object sender, XlSheetCreatedEventArgs e)
+        private void PrintingSystem_XlSheetCreated_1(object sender, XlSheetCreatedEventArgs e)
         {
             //Đổi tên Sheet Excel
             if (e.Index == 0)
@@ -199,17 +266,39 @@ namespace PhanTichDuLieu
                 e.SheetName = "Tên Sheet";
             }
         }
+
+
+
+
+
         #endregion
 
         #region Xử Lý Button
+        bool flag_excel = false;
         private void btnTruyVan_Click(object sender, EventArgs e)
         {
+            tenCSKCB = "";
+            complinkMain = new CompositeLink(new PrintingSystem());
+            int soluongGridControl = soluongLookupEdit;
+            int i_sl = 0;
+            GridControl[] gridcontrolTemps = new GridControl[soluongGridControl + 1];
+            PrintableComponentLink[] linkTemps = new PrintableComponentLink[soluongGridControl + 1];
+            DataTable[] dt_Temps = new DataTable[soluongGridControl + 1];
+
+            int soLuongSheet = 0;
+
+            maDieuKiens = new string[soluongGridControl];
+            tenDieuKiens = new string[soluongGridControl];
+            DieuKiens = new string[soluongGridControl];
+
+
             if (this.lookUpEditCSKCB.EditValue.ToString() != "Tên CSKCB")
             {
                 if (this.lookUpEditCSKCB.Text == "Tất cả CSKCB")
                 {
+                    flag_excel = false;
                     string query = "select table_name from information_schema.tables where table_name like '%xml123_%' and table_name not like 'xml123_dtdi'";
-                   
+
 
                     SqlConnection conn = DBUtils.GetDBConnection();
                     conn.Open();
@@ -221,7 +310,7 @@ namespace PhanTichDuLieu
                         {
                             string temp = "";
                             string temp_cautruyvan = "";
-                            if (this.lookUpEditCauTruyVan.EditValue.ToString() != "Tên Câu Truy Vấn")
+                            if (this.lookUpEditCauTruyVan.EditValue.ToString() != "Tất cả điều kiện")
                             {
                                 //Code
                                 string _ngayBatDau = this.tbThoiGianBatDau.Text;
@@ -243,9 +332,11 @@ namespace PhanTichDuLieu
                                 }
                                 //MessageBox.Show(temp);
 
-                                DataTable dt = DBUtils.GetDBTable(temp, conn);
-                                this.gridControlKetQua.DataSource = dt;
+                                DataTable dt_alllll = DBUtils.GetDBTable(temp, conn);
+                                this.gridControlKetQua.DataSource = dt_alllll;
                             }
+                            else
+                                MessageBox.Show("Không được chọn tất cả các điều kiện!", "Thông báo!", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         }
                     }
                     catch (SqlException ex)
@@ -259,12 +350,16 @@ namespace PhanTichDuLieu
                     }
 
                 }
-                else
+                else //Từng cơ sở khám chữa bệnh
                 {
+                    
                     string _MaCSKCB = this.lookUpEditCSKCB.EditValue.ToString();
+
+                    tenCSKCB = _MaCSKCB;
                     _MaCSKCB = "xml123_" + _MaCSKCB;
-                    if (this.lookUpEditCauTruyVan.EditValue.ToString() != "Tên Câu Truy Vấn")
+                    if (this.lookUpEditCauTruyVan.EditValue.ToString() != "Tất cả điều kiện")
                     {
+                        flag_excel = false;
                         //Code
                         string _ngayBatDau = this.tbThoiGianBatDau.Text;
                         string _ngayKetThuc = this.tbThoiGianKetThuc.Text;
@@ -293,21 +388,111 @@ namespace PhanTichDuLieu
 
 
                     }
-                    else
+                    else //Chọn tất cả các câu truy vấn.
                     {
-                        MessageBox.Show("Chưa chọn câu truy vấn");
+                        flag_excel = true;
+                        /*
+                         * ****************************************************
+                         * ****************************************************
+                         * ****************************************************
+                         * ****************************************************
+                         * ****************************************************
+                         * ****************************************************
+                         * ****************************************************
+                         */
+
+                        //MessageBox.Show(dtBangDieuKien.Rows.Count.ToString());
+
+
+                        string DieuKien = "";
+                        string query = "";
+                        for (int j = 0; j < dtBangDieuKien.Rows.Count - 1; j++)
+                        {
+                            string _ngayBatDau = this.tbThoiGianBatDau.Text;
+                            string _ngayKetThuc = this.tbThoiGianKetThuc.Text;
+                            string _CauTruyVan = dtBangDieuKien.Rows[j][2].ToString();
+                            _CauTruyVan = _CauTruyVan.Replace("_ngaybatdau_", _ngayBatDau);
+                            _CauTruyVan = _CauTruyVan.Replace("_ngayketthuc_", _ngayKetThuc);
+                            _CauTruyVan = _CauTruyVan.Replace("xml123", _MaCSKCB);
+
+                            query = _CauTruyVan;
+                            DieuKien = _CauTruyVan;
+
+                            maDieuKiens[i_sl] = dtBangDieuKien.Rows[j][0].ToString();
+                            tenDieuKiens[i_sl] = dtBangDieuKien.Rows[j][1].ToString();
+
+                            //Gridv
+                            SqlConnection conn = DBUtils.GetDBConnection();
+                            conn.Open();
+                            try
+                            {
+                                dt_Temps[i_sl] = DBUtils.GetDBTable(query, conn);
+                                DataColumn Col = dt_Temps[i_sl].Columns.Add("STT");
+                                Col.SetOrdinal(0);
+                                for (int i = 0; i < dt_Temps[i_sl].Rows.Count; i++)
+                                    dt_Temps[i_sl].Rows[i]["STT"] = i + 1;
+
+                                //MessageBox.Show(dt_Temps[i_sl].Rows.Count.ToString());
+
+                                if (dt_Temps[i_sl].Rows.Count > 0)
+                                {
+                                    gridcontrolTemps[i_sl] = new GridControl();
+                                    gridcontrolTemps[i_sl].BindingContext = new System.Windows.Forms.BindingContext();
+                                    gridcontrolTemps[i_sl].DataSource = dt_Temps[i_sl];
+
+                                    Form frm = new Form();
+                                    frm.Controls.Add(gridcontrolTemps[i_sl]);
+                                    gridcontrolTemps[i_sl].ForceInitialize();
+
+                                    linkTemps[i_sl] = new PrintableComponentLink(new PrintingSystem());
+                                    linkTemps[i_sl].Component = gridcontrolTemps[i_sl];
+
+                                    //Bảng đổi tên
+                                    soLuongSheets[soLuongSheet] = tenDieuKiens[i_sl];
+                                    soLuongMaDieuKienSheets[soLuongSheet] = maDieuKiens[i_sl];
+                                    soLuongSheet++;
+                                    linkTemps[i_sl].CreateMarginalHeaderArea += new CreateAreaEventHandler(Link_CreateMarginalHeaderArea);
+
+                                    complinkMain.Links.Add(linkTemps[i_sl]);
+
+                                }
+
+                            }
+                            catch (SqlException ex)
+                            {
+                                MessageBox.Show("Error: " + ex.ToString());
+                            }
+                            finally
+                            {
+                                conn.Close();
+                                conn.Dispose();
+                            }
+                            //KẾT THÚC ĐIỀU KIỆN
+                            i_sl++;
+                        }
+
+                        MessageBox.Show("Đã khởi tạo xong dữ liệu!", "Thông báo!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
                     }
                 }
-              
             }
             else
             {
-                MessageBox.Show("Chưa chọn CSKCB");
+                MessageBox.Show("Chưa chọn Cơ sở khám chữa bệnh!", "Thông báo!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
             }
         }
         private void btnXuatExcel_Click(object sender, EventArgs e)
         {
-            this.xuatExcel();
+            if (!flag_excel)
+            {
+
+                this.xuatExcel();
+            }
+            else
+            {
+                this.xuatExcel_ToanBoCauLenh();
+            }
         }
         #endregion
     }

@@ -520,3 +520,4 @@ D:\Project C#\PhanMemHoTroPhanTichDuLieuXML\PhanTichDuLieu\obj\Release\PhanTichD
 D:\Project C#\PhanMemHoTroPhanTichDuLieuXML\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmGiamDinhDieuKien3.resources
 D:\Project C#\PhanMemHoTroPhanTichDuLieuXML\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmDMDieuKienSoSanh.resources
 D:\Project C#\PhanMemHoTroPhanTichDuLieuXML\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmGiamDinhSoSanhKyQT.resources
+D:\Project C#\PhanMemHoTroPhanTichDuLieuXML\PhanTichDuLieu\obj\Release\PhanTichDuLieu.frmNoiDuLieuSQLite_NangCao.resources
