@@ -179,7 +179,7 @@
             this.Controls.Add(this.label1);
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "frmThuocCoDieuKienNangCao";
-            this.Text = "FormThuocCoDieuKien";
+            this.Text = "frmThuocCoDieuKienNangCao";
             this.Load += new System.EventHandler(this.FormDVKTCoDieuKien_Load);
             ((System.ComponentModel.ISupportInitialize)(this.gridControlKetQua)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridViewKetQua)).EndInit();

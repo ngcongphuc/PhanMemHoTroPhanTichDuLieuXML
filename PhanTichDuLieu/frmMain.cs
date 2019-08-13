@@ -19,6 +19,7 @@ namespace PhanTichDuLieu
             //this.pictureEditMain.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
             this.pictureEditMain.Properties.ReadOnly = true;
 
+            
             /*
             this.ribbonPageThietLapQuyTac.Visible = false;
             this.ribbonPageCongCu.Visible = false;
@@ -26,12 +27,12 @@ namespace PhanTichDuLieu
             this.btnDMCSKCB.Enabled = false;
             this.btnImportDuLieu.Enabled = false;
             this.btnDMXML123.Enabled = false;
-            */
-            /*
+
             this.btnNoiDuLieu.Enabled = false;
             this.btnNoiDuLieuNangCao.Enabled = false;
             this.btnNoiDuLieu_KQT.Enabled = false;
-            this.btnChiaDuLieu.*/
+            this.btnChiaDuLieu.Enabled = false;
+            */
 
         }
 
@@ -64,7 +65,7 @@ namespace PhanTichDuLieu
             //Gửi Mail
             
             MyFunctionDLL.MailHelper myMailHelper = new MyFunctionDLL.MailHelper();
-            //myMailHelper.sendMail();
+            myMailHelper.sendMail();
 
             frmThietLapHeThong f = new frmThietLapHeThong();
             f.ShowDialog();

@@ -195,7 +195,7 @@ namespace PhanTichDuLieu
 
             SaveFileDialog f = new SaveFileDialog();
             f.Filter = "Excel file (*.xlsx)|*.xlsx";
-            f.FileName = tenCSKCB + "_DichVuKyThuat_" + DateTime.Now.Second.ToString() + DateTime.Now.Minute.ToString() + DateTime.Now.Hour.ToString() + DateTime.Now.Day.ToString() + DateTime.Now.Month.ToString() + DateTime.Now.Year.ToString();
+            f.FileName = tenCSKCB + "_XetNghiem_" + DateTime.Now.Second.ToString() + DateTime.Now.Minute.ToString() + DateTime.Now.Hour.ToString() + DateTime.Now.Day.ToString() + DateTime.Now.Month.ToString() + DateTime.Now.Year.ToString();
 
             if (f.ShowDialog() == DialogResult.OK)
             {

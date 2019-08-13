@@ -369,8 +369,9 @@
     <Compile Include="GiamDinh\frmDVKTCoDieuKienNangCao.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GiamDinh\frmDVKTCoDieuKienNangCao.Designer.cs">
+    <Compile Include="GiamDinh\.Designer.cs">
       <DependentUpon>frmDVKTCoDieuKienNangCao.cs</DependentUpon>
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="GiamDinh\frmThuocCoDieuKienNangCao.cs">
       <SubType>Form</SubType>

@@ -210,7 +210,7 @@
             this.Controls.Add(this.label1);
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "frmGiamDinhSoSanhKyQT";
-            this.Text = "Giám định so sánh";
+            this.Text = "frmGiamDinhSoSanhKyQT";
             this.Load += new System.EventHandler(this.FormDVKTCoDieuKien_Load);
             ((System.ComponentModel.ISupportInitialize)(this.gridControlKetQua)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridViewKetQua)).EndInit();
